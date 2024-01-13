@@ -18,12 +18,21 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 
 const LinkItem = ({ children, to = "/", ...rest }) => {
     return (
-        <Box>
-            <Link href={to} p={6} {...rest}>
+        <Box
+            _hover={{
+                bg: "brand.cyan",
+                borderRadius: '5',
+                shadow: 'md',
+                transform: 'translateY(-5px)',
+                transitionDuration: '0.2s',
+                transitionTimingFunction: "ease-in-out"
+            }}
+            _focus={{ boxShadow: "outline" }}
+        >
+            <Link href={to} p={6} style={{ textDecoration: 'none' }} {...rest}>
                 {children}
             </Link>
         </Box>
-
     )
 }
 
@@ -59,7 +68,7 @@ const Navbar = props => {
                     flexGrow={1}
                     mt={{ base: 4, nmd: 0 }}
                 >
-                    <LinkItem to="/about">About</LinkItem>
+                    <LinkItem to="/">About</LinkItem>
                     <LinkItem to="/experience">Experience</LinkItem>
                     <LinkItem to="/blog">Blog</LinkItem>
                     <LinkItem to="/ventures">Ventures</LinkItem>
@@ -74,7 +83,7 @@ const Navbar = props => {
                             variant='outline'
                         />
                         <MenuList>
-                            <MenuItem as='a' href="/about">About</MenuItem>
+                            <MenuItem as='a' href="/">About</MenuItem>
                             <MenuItem as='a' href="/experience">Experience</MenuItem>
                             <MenuItem as='a' href="/blog">Blog</MenuItem>
                             <MenuItem as='a' href="/ventures">Ventures</MenuItem>
