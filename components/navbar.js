@@ -18,11 +18,12 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 
 const LinkItem = ({ children, to = "/", ...rest }) => {
     return (
-        <Link href={to}>
-            <Text display="block" {...rest}>
+        <Box>
+            <Link href={to} p={6} {...rest}>
                 {children}
-            </Text>
-        </Link>
+            </Link>
+        </Box>
+
     )
 }
 
