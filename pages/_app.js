@@ -1,19 +1,12 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../components/layouts/main'
-import { extendTheme } from "@chakra-ui/react"
-
-const theme = extendTheme({
-    colors: {
-        brand: {
-            cyan: "#bbfdf0",
-            teal: "#059175"
-        },
-    },
-})
+import Fonts from '../components/fonts'
+import theme from '../lib/theme'
 
 const Website = ({ Component, pageProps, router }) => {
     return (
         <ChakraProvider theme={theme}>
+            <Fonts />
             <Layout router={router}>
                 <Component {...pageProps} key={router.route} />
             </Layout>
