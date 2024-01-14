@@ -70,9 +70,11 @@ const Navbar = props => {
                     <LinkItem to="/blog">Blog</LinkItem>
                     <LinkItem to="/ventures">Ventures</LinkItem>
                 </Stack>
-
-                <Box flex={1} align="right" ml={2} display={{ base: 'inline-block', md: 'none' }}>
+                <Box>
                     <ThemeToggleButton />
+                </Box>
+                <Box flex={1} align="right" ml={2} display={{ base: 'inline-block', md: 'none' }}>
+
                     <Menu>
                         <MenuButton
                             as={IconButton}
