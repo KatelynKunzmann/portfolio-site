@@ -1,6 +1,5 @@
 import Logo from './logo'
 import {
-    Text,
     Container,
     Box,
     Link,
@@ -11,16 +10,17 @@ import {
     MenuItem,
     MenuList,
     MenuButton,
-    IconButton,
-    useColorModeValue
+    IconButton
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
+import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({ children, to = "/", ...rest }) => {
     return (
         <Box
             _hover={{
-                bg: "brand.cyan",
+                color: "dark_gray",
+                bg: "light_green",
                 borderRadius: '5',
                 shadow: 'md',
                 transform: 'translateY(-5px)',
@@ -37,15 +37,11 @@ const LinkItem = ({ children, to = "/", ...rest }) => {
 }
 
 const Navbar = props => {
-    const { path } = props
     return (
         <Flex
             position="fixed"
             as="nav"
             w="100%"
-            bg={useColorModeValue('#ffffff40', '#20202380')}
-            style={{ backdropFilter: 'blur(10px)' }}
-            zIndex={1}
             {...props}>
             <Container
                 display="flex"
@@ -62,7 +58,8 @@ const Navbar = props => {
                 </Flex>
 
                 <Stack
-                    direction={{ base: 'column', md: 'row' }} display={{ base: 'none', md: 'flex' }}
+                    direction={{ base: 'column', md: 'row' }}
+                    display={{ base: 'none', md: 'flex' }}
                     width={{ base: 'full', md: 'auto' }}
                     alignItems="center"
                     flexGrow={1}
@@ -75,6 +72,7 @@ const Navbar = props => {
                 </Stack>
 
                 <Box flex={1} align="right" ml={2} display={{ base: 'inline-block', md: 'none' }}>
+                    <ThemeToggleButton />
                     <Menu>
                         <MenuButton
                             as={IconButton}
@@ -83,10 +81,10 @@ const Navbar = props => {
                             variant='outline'
                         />
                         <MenuList>
-                            <MenuItem as='a' href="/">About</MenuItem>
-                            <MenuItem as='a' href="/experience">Experience</MenuItem>
-                            <MenuItem as='a' href="/blog">Blog</MenuItem>
-                            <MenuItem as='a' href="/ventures">Ventures</MenuItem>
+                            <MenuItem as='a' href="/" _hover={{ color: "dark_gray", bg: "light_green", borderRadius: '3' }}>About</MenuItem>
+                            <MenuItem as='a' href="/experience" _hover={{ color: "dark_gray", bg: "light_green", borderRadius: '3' }}>Experience</MenuItem>
+                            <MenuItem as='a' href="/blog" _hover={{ color: "dark_gray", bg: "light_green", borderRadius: '3' }}>Blog</MenuItem>
+                            <MenuItem as='a' href="/ventures" _hover={{ color: "dark_gray", bg: "light_green", borderRadius: '3' }}>Ventures</MenuItem>
                         </MenuList>
                     </Menu>
                 </Box>
