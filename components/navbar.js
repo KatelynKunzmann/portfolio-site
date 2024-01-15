@@ -19,8 +19,8 @@ const LinkItem = ({ children, to = "/", ...rest }) => {
     return (
         <Box
             _hover={{
-                color: "dark_gray",
-                bg: "light_green",
+                color: "theme_colors.dark_gray",
+                bg: "theme_colors.light_green",
                 borderRadius: '5',
                 shadow: 'md',
                 transform: 'translateY(-5px)',
@@ -83,10 +83,10 @@ const Navbar = props => {
                             variant='outline'
                         />
                         <MenuList>
-                            <MenuItem as='a' href="/" _hover={{ color: "dark_gray", bg: "light_green", borderRadius: '3' }}>About</MenuItem>
-                            <MenuItem as='a' href="/experience" _hover={{ color: "dark_gray", bg: "light_green", borderRadius: '3' }}>Experience</MenuItem>
-                            <MenuItem as='a' href="/blog" _hover={{ color: "dark_gray", bg: "light_green", borderRadius: '3' }}>Blog</MenuItem>
-                            <MenuItem as='a' href="/ventures" _hover={{ color: "dark_gray", bg: "light_green", borderRadius: '3' }}>Ventures</MenuItem>
+                            <MenuItem as='a' href="/" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>About</MenuItem>
+                            <MenuItem as='a' href="/experience" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Experience</MenuItem>
+                            <MenuItem as='a' href="/blog" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Blog</MenuItem>
+                            <MenuItem as='a' href="/ventures" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Ventures</MenuItem>
                         </MenuList>
                     </Menu>
                 </Box>
