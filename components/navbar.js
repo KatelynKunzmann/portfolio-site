@@ -10,7 +10,8 @@ import {
     MenuItem,
     MenuList,
     MenuButton,
-    IconButton
+    IconButton,
+    useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
@@ -38,10 +39,13 @@ const LinkItem = ({ children, to = "/", ...rest }) => {
 
 const Navbar = props => {
     return (
-        <Flex
+        <Box
             position="fixed"
             as="nav"
             w="100%"
+            bg={useColorModeValue('#ffffff40', '#20202380')}
+            css={{ backdropFilter: 'blur(10px)' }}
+            zIndex={2}
             {...props}>
             <Container
                 display="flex"
@@ -70,28 +74,30 @@ const Navbar = props => {
                     <LinkItem to="/blog">Blog</LinkItem>
                     <LinkItem to="/ventures">Ventures</LinkItem>
                 </Stack>
-                <Box>
-                    <ThemeToggleButton />
-                </Box>
-                <Box flex={1} align="right" ml={2} display={{ base: 'inline-block', md: 'none' }}>
 
-                    <Menu>
-                        <MenuButton
-                            as={IconButton}
-                            aria-label='Options'
-                            icon={<HamburgerIcon />}
-                            variant='outline'
-                        />
-                        <MenuList>
-                            <MenuItem as='a' href="/" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>About</MenuItem>
-                            <MenuItem as='a' href="/experience" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Experience</MenuItem>
-                            <MenuItem as='a' href="/blog" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Blog</MenuItem>
-                            <MenuItem as='a' href="/ventures" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Ventures</MenuItem>
-                        </MenuList>
-                    </Menu>
+                <Box flex={1} align="right" >
+                    <ThemeToggleButton />
+
+                    <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
+
+                        <Menu>
+                            <MenuButton
+                                as={IconButton}
+                                aria-label='Options'
+                                icon={<HamburgerIcon />}
+                                variant='outline'
+                            />
+                            <MenuList>
+                                <MenuItem as='a' href="/" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>About</MenuItem>
+                                <MenuItem as='a' href="/experience" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Experience</MenuItem>
+                                <MenuItem as='a' href="/blog" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Blog</MenuItem>
+                                <MenuItem as='a' href="/ventures" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Ventures</MenuItem>
+                            </MenuList>
+                        </Menu>
+                    </Box>
                 </Box>
             </Container>
-        </Flex>
+        </Box>
     )
 }
 export default Navbar
