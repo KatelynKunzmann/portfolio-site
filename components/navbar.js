@@ -71,8 +71,8 @@ const Navbar = props => {
                 >
                     <LinkItem to="/">About</LinkItem>
                     <LinkItem to="/experience">Experience</LinkItem>
-                    <LinkItem to="/blog">Blog</LinkItem>
                     <LinkItem to="/ventures">Ventures</LinkItem>
+                    <LinkItem to="/blog">Blog</LinkItem>
                 </Stack>
 
                 <Box flex={1} align="right" >
@@ -90,8 +90,8 @@ const Navbar = props => {
                             <MenuList>
                                 <MenuItem as='a' href="/" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>About</MenuItem>
                                 <MenuItem as='a' href="/experience" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Experience</MenuItem>
-                                <MenuItem as='a' href="/blog" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Blog</MenuItem>
                                 <MenuItem as='a' href="/ventures" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Ventures</MenuItem>
+                                <MenuItem as='a' href="/blog" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Blog</MenuItem>
                             </MenuList>
                         </Menu>
                     </Box>
