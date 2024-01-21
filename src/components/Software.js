@@ -1,8 +1,8 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/layouts/grid-item'
-import awsthumb from '../../public/images/projects/awsthumb01.png'
-import bug from '../../public/images/projects/bug.png'
+import aws from '../../public/images/projects/aws.png'
+import malware from '../../public/images/projects/malware.png'
 import fsa from '../../public/images/projects/fsa.png'
 import interest from '../../public/images/projects/interest.png'
 import catcafe from '../../public/images/projects/catcafe.png'
@@ -16,12 +16,12 @@ const Software = () => {
                     Software
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
-                    <WorkGridItem id="aws_proxy_server" title="AWS Proxy Server" thumbnail={awsthumb}>
+                    <WorkGridItem id="aws_proxy_server" title="AWS Proxy Server" thumbnail={aws}>
                         A reverse proxy server that securely stores customer AWS credentials and
                         facilitates interactions with AWS services on behalf of customers
                     </WorkGridItem>
-                    <WorkGridItem id="mal_monthly" title="Malware Data Scraper" thumbnail={bug}>
-                        A web application that displays the most shared malware for the past 30 days, which exceeds 15,000 entries
+                    <WorkGridItem id="mal_monthly" title="Malware Data Scraper" thumbnail={malware}>
+                        A web application that displays the most shared malware for the past 30 days, exceeding 15,000 entries
                     </WorkGridItem>
                 </SimpleGrid>
             </Section>

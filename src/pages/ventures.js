@@ -9,7 +9,6 @@ import Blockchain from '../components/Blockchain';
 import Minerals from '../components/Minerals';
 import Languages from '../components/Languages';
 
-
 const Ventures = () => {
 
     const scrollToTop = () => {
@@ -38,13 +37,13 @@ const Ventures = () => {
                 <Box
                     as='button'
                     borderRadius='md'
-                    bg='theme_colors.cool_blue'
-                    color='white'
+                    bg='theme_colors.evergreen'
+                    color='theme_colors.dark_gray'
                     px={4}
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.sky_blue",
+                        bg: "theme_colors.mint_green",
                         borderRadius: '5',
                         shadow: 'md',
                         transitionDuration: '0.3s',
@@ -65,13 +64,13 @@ const Ventures = () => {
                 <Box
                     as='button'
                     borderRadius='md'
-                    bg='theme_colors.cool_blue'
-                    color='white'
+                    bg='theme_colors.evergreen'
+                    color='theme_colors.dark_gray'
                     px={4}
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.sky_blue",
+                        bg: "theme_colors.mint_green",
                         borderRadius: '5',
                         shadow: 'md',
                         transitionDuration: '0.3s',
@@ -92,13 +91,13 @@ const Ventures = () => {
                 <Box
                     as='button'
                     borderRadius='md'
-                    bg='theme_colors.cool_blue'
-                    color='white'
+                    bg='theme_colors.evergreen'
+                    color='theme_colors.dark_gray'
                     px={4}
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.sky_blue",
+                        bg: "theme_colors.mint_green",
                         borderRadius: '5',
                         shadow: 'md',
                         transitionDuration: '0.3s',
@@ -119,13 +118,13 @@ const Ventures = () => {
                 <Box
                     as='button'
                     borderRadius='md'
-                    bg='theme_colors.cool_blue'
-                    color='white'
+                    bg='theme_colors.evergreen'
+                    color='theme_colors.dark_gray'
                     px={4}
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.sky_blue",
+                        bg: "theme_colors.mint_green",
                         borderRadius: '5',
                         shadow: 'md',
                         transitionDuration: '0.3s',
@@ -146,13 +145,13 @@ const Ventures = () => {
                 <Box
                     as='button'
                     borderRadius='md'
-                    bg='theme_colors.cool_blue'
-                    color='white'
+                    bg='theme_colors.evergreen'
+                    color='theme_colors.dark_gray'
                     px={4}
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.sky_blue",
+                        bg: "theme_colors.mint_green",
                         borderRadius: '5',
                         shadow: 'md',
                         transitionDuration: '0.3s',
@@ -173,13 +172,13 @@ const Ventures = () => {
                 <Box
                     as='button'
                     borderRadius='md'
-                    bg='theme_colors.cool_blue'
-                    color='white'
+                    bg='theme_colors.evergreen'
+                    color='theme_colors.dark_gray'
                     px={4}
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.sky_blue",
+                        bg: "theme_colors.mint_green",
                         borderRadius: '5',
                         shadow: 'md',
                         transitionDuration: '0.3s',
@@ -214,11 +213,11 @@ const Ventures = () => {
                     position="fixed"
                     bottom="4"
                     right="4"
-                    bgColor="theme_colors.cool_blue"
-                    color="white"
+                    bgColor="theme_colors.evergreen"
+                    color="theme_colors.dark_gray"
                     borderRadius="md"
                     _hover={{
-                        bgColor: "theme_colors.sky_blue",
+                        bgColor: "theme_colors.mint_green",
                         color: "theme_colors.dark_gray",
                         transitionDuration: '0.3s',
                         transitionTimingFunction: "ease-in-out"

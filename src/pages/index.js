@@ -1,9 +1,8 @@
-import NextLink from 'next/link'
-import { Container, Box, Heading, Image, Button, Link, useColorModeValue } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { Container, Box, Heading, Image, Link, useColorModeValue, Flex } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import { PopButton } from '../components/PopButton'
 
 const Home = () => {
     return (
@@ -51,25 +50,11 @@ const Home = () => {
                     You can find me coding away with my furrbaby purring louder than my computer!
                 </Paragraph>
                 <Box align="center" my={4}>
-                    <NextLink href="experience">
-                        <Button
-                            rightIcon={<ChevronRightIcon />}
-                            borderRadius='md'
-                            bg='theme_colors.evergreen'
-                            color='theme_colors.dark_gray'
-                            px={4}
-                            h={8}
-                            _hover={{
-                                bg: 'theme_colors.mint_green',
-                                borderRadius: '5',
-                                shadow: 'md',
-                                transitionDuration: '0.3s',
-                                transitionTimingFunction: "ease-in-out"
-                            }}
-                        >
-                            Experience
-                        </Button>
-                    </NextLink>
+                    <PopButton
+                        label="Experience"
+                        id="experience"
+                    >
+                    </PopButton>
                 </Box>
             </Section>
             <Section delay={0.2}>
@@ -78,7 +63,7 @@ const Home = () => {
                 </Heading>
                 <BioSection>
                     <BioYear>1995</BioYear>
-                    Born in Biloxi, MS, USA.
+                    Born in Biloxi, MS
                 </BioSection>
                 <BioSection>
                     <BioYear>2012</BioYear>
@@ -102,12 +87,19 @@ const Home = () => {
 
                 </BioSection>
                 <BioSection>
-                    <BioYear>2023</BioYear>
-                    Completed a Bachelor&apos;s Degree in Computer Science at the University of Pittsburgh
-                </BioSection>
-                <BioSection>
-                    <BioYear>2023 to present</BioYear>
-                    Working at <Link href="https://www.upmc.com/" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>UPMC</Link> as a Software Engineer Associate
+                    <Flex direction="column" align="left">
+                        <BioYear>2023 to Present</BioYear>
+                    </Flex>
+                    Working at{' '}
+                    <Link
+                        href="https://www.upmc.com/"
+                        color={useColorModeValue('theme_colors.dark_purple', 'theme_colors.purplish')}
+                        fontWeight="bold"
+                        _hover={{ color: 'theme_colors.lavendar' }}
+                    >
+                        UPMC
+                    </Link>{' '}
+                    as a Software Engineer Associate
                 </BioSection>
             </Section>
 
@@ -117,7 +109,7 @@ const Home = () => {
                 </Heading>
                 <Paragraph>
                     Snowboarding, Longboarding, Video Games, Gems and Minerals, Cuddling my cat, and {' '}
-                    <Link href="/keyboards" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Building Keyboards!</Link>
+                    <Link href="/hardware/keyboards" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Building Keyboards!</Link>
                 </Paragraph>
             </Section>
         </Container>
