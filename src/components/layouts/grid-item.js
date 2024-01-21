@@ -23,10 +23,10 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 export const CardItem = ({ children, id, title, thumbnail }) => (
     <Box width="100%" align="center" mt={4} mb={4} borderRadius="lg"
         _hover={{
-            color: "theme_colors.sky_blue",
-            bg: "#121c38",
+            color: useColorModeValue("#484848", "theme_colors.sky_blue"),
+            bg: useColorModeValue("#cbc7d0", "#121c38"),
             outline: "none",
-            boxShadow: '0 2px 0 0 inset #1a233f',
+            boxShadow: '0 2px 0 0 inset ' + useColorModeValue("#d7d4dc", "#1a233f"),
             transform: "translate(-1px, -1px)",
             transition: "transform 0.2s ease-in-out"
         }}
@@ -35,7 +35,7 @@ export const CardItem = ({ children, id, title, thumbnail }) => (
             cursor="pointer"
             borderRadius="lg"
             padding='1.25rem 1rem'
-            bg={useColorModeValue('#081527', 'transparent')}
+            bg='transparent'
         >
             <Image src={thumbnail} alt={title} className="grid-item-thumbnail" />
             <LinkOverlay href={`/ventures/${id}`}>
