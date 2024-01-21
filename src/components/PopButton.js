@@ -14,7 +14,7 @@ export const PopButton = ({ label, id }) => {
             _hover={{
                 outline: "none",
                 boxShadow: '5px 5px 0 0 #5cdb95',
-                transform: "translate(-5px, -5px)"
+                transform: "translate(-5px, -5px)",
             }}
         >
             <Link href={`/${id}`}

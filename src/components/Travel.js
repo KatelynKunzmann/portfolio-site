@@ -1,6 +1,6 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/layouts/grid-item'
+import { CardItem } from '../components/layouts/grid-item'
 import tortoise from '../../public/images/travel/galapagos/galapagos-tortoise.JPG'
 import Paragraph from './paragraph'
 
@@ -12,9 +12,9 @@ const Travel = () => {
                     Travel
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
-                    <WorkGridItem id="galapagos" title="Galapagos Islands" thumbnail={tortoise}>
+                    <CardItem id="galapagos" title="Galapagos Islands" thumbnail={tortoise}>
                         Galapagos Islands and Quito, Ecuador research trip 2019
-                    </WorkGridItem>
+                    </CardItem>
                 </SimpleGrid>
                 <Paragraph>
                     Certainly! Here are three paragraphs of Lorem Ipsum filler text:

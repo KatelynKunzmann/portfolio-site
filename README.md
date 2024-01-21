@@ -4,8 +4,7 @@
 
 **TODO:**
 
+- Make Cards be glossy
 - Finish Experience Page
-- Add smooth scrolling feature in Ventures page
-- Make universal MyButton component
 - Create 3D feature on Home page
 - Finish blog page and write blog post

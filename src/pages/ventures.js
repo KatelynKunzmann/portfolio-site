@@ -1,4 +1,4 @@
-import { Container, Heading, Stack, Box, IconButton } from '@chakra-ui/react';
+import { Container, Heading, Stack, Box, Button, IconButton, useColorModeValue } from '@chakra-ui/react';
 import { ChevronUpIcon } from '@chakra-ui/icons';
 import { useState, useEffect } from 'react';
 import { Link } from "react-scroll"
@@ -33,170 +33,173 @@ const Ventures = () => {
             <Heading as="h3" fontSize={30} mt={4} mb={4}>
                 My Personal Ventures into...
             </Heading>
-            <Stack direction={{ base: 'column', md: 'row' }} spacing={2} padding={2} justifyContent="center" alignItems="center">
-                <Box
-                    as='button'
-                    borderRadius='md'
-                    bg='theme_colors.evergreen'
-                    color='theme_colors.dark_gray'
-                    px={4}
-                    h={8}
-                    _hover={{
-                        color: "theme_colors.dark_gray",
-                        bg: "theme_colors.mint_green",
-                        borderRadius: '5',
-                        shadow: 'md',
-                        transitionDuration: '0.3s',
-                        transitionTimingFunction: "ease-in-out"
-                    }}
-                >
-                    <Link
-                        activeClass="active"
-                        to="software"
-                        spy={true}
-                        smooth={true}
-                        offset={-95}
-                        duration={500}
+            <Stack direction={{ base: 'column', md: 'row' }} justifyContent="center" alignItems="center">
+                <Box align="center" my={1}>
+                    <Button
+                        border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
+                        borderRadius='md'
+                        padding='1.25rem 1.75rem'
+                        bg={useColorModeValue('#081527', 'transparent')}
+                        color='theme_colors.evergreen'
+                        px={4}
+                        h={8}
+                        _hover={{
+                            outline: "none",
+                            boxShadow: '5px 5px 0 0 #5cdb95',
+                            transform: "translate(-5px, -5px)",
+                        }}
                     >
-                        Software
-                    </Link>
+                        <Link
+                            activeClass="active"
+                            to="software"
+                            spy={true}
+                            smooth={true}
+                            offset={-95}
+                            duration={500}
+                            color={useColorModeValue('theme_colors.light_green', 'theme_colors.evergreen')}>
+                            Software
+                        </Link>
+                    </Button>
                 </Box>
-                <Box
-                    as='button'
-                    borderRadius='md'
-                    bg='theme_colors.evergreen'
-                    color='theme_colors.dark_gray'
-                    px={4}
-                    h={8}
-                    _hover={{
-                        color: "theme_colors.dark_gray",
-                        bg: "theme_colors.mint_green",
-                        borderRadius: '5',
-                        shadow: 'md',
-                        transitionDuration: '0.3s',
-                        transitionTimingFunction: "ease-in-out"
-                    }}
-                >
-                    <Link
-                        activeClass="active"
-                        to="hardware"
-                        spy={true}
-                        smooth={true}
-                        offset={-95}
-                        duration={500}
+
+                <Box align="center" my={1}>
+                    <Button
+                        border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
+                        borderRadius='md'
+                        padding='1.25rem 1.75rem'
+                        bg={useColorModeValue('#081527', 'transparent')}
+                        color='theme_colors.evergreen'
+                        px={4}
+                        h={8}
+                        _hover={{
+                            outline: "none",
+                            boxShadow: '5px 5px 0 0 #5cdb95',
+                            transform: "translate(-5px, -5px)",
+                        }}
                     >
-                        Hardware
-                    </Link>
+                        <Link
+                            activeClass="active"
+                            to="hardware"
+                            spy={true}
+                            smooth={true}
+                            offset={-95}
+                            duration={500}
+                            color={useColorModeValue('theme_colors.light_green', 'theme_colors.evergreen')}>
+                            Hardware
+                        </Link>
+                    </Button>
                 </Box>
-                <Box
-                    as='button'
-                    borderRadius='md'
-                    bg='theme_colors.evergreen'
-                    color='theme_colors.dark_gray'
-                    px={4}
-                    h={8}
-                    _hover={{
-                        color: "theme_colors.dark_gray",
-                        bg: "theme_colors.mint_green",
-                        borderRadius: '5',
-                        shadow: 'md',
-                        transitionDuration: '0.3s',
-                        transitionTimingFunction: "ease-in-out"
-                    }}
-                >
-                    <Link
-                        activeClass="active"
-                        to="blockchain"
-                        spy={true}
-                        smooth={true}
-                        offset={-95}
-                        duration={500}
+                <Box align="center" my={1}>
+                    <Button
+                        border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
+                        borderRadius='md'
+                        padding='1.25rem 1.75rem'
+                        bg={useColorModeValue('#081527', 'transparent')}
+                        color='theme_colors.evergreen'
+                        px={4}
+                        h={8}
+                        _hover={{
+                            outline: "none",
+                            boxShadow: '5px 5px 0 0 #5cdb95',
+                            transform: "translate(-5px, -5px)",
+                        }}
                     >
-                        Blockchain
-                    </Link>
+                        <Link
+                            activeClass="active"
+                            to="blockchain"
+                            spy={true}
+                            smooth={true}
+                            offset={-95}
+                            duration={500}
+                            color={useColorModeValue('theme_colors.light_green', 'theme_colors.evergreen')}>
+                            Blockchain
+                        </Link>
+                    </Button>
                 </Box>
-                <Box
-                    as='button'
-                    borderRadius='md'
-                    bg='theme_colors.evergreen'
-                    color='theme_colors.dark_gray'
-                    px={4}
-                    h={8}
-                    _hover={{
-                        color: "theme_colors.dark_gray",
-                        bg: "theme_colors.mint_green",
-                        borderRadius: '5',
-                        shadow: 'md',
-                        transitionDuration: '0.3s',
-                        transitionTimingFunction: "ease-in-out"
-                    }}
-                >
-                    <Link
-                        activeClass="active"
-                        to="travel"
-                        spy={true}
-                        smooth={true}
-                        offset={-95}
-                        duration={500}
+                <Box align="center" my={1}>
+                    <Button
+                        border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
+                        borderRadius='md'
+                        padding='1.25rem 1.75rem'
+                        bg={useColorModeValue('#081527', 'transparent')}
+                        color='theme_colors.evergreen'
+                        px={4}
+                        h={8}
+                        _hover={{
+                            outline: "none",
+                            boxShadow: '5px 5px 0 0 #5cdb95',
+                            transform: "translate(-5px, -5px)",
+                        }}
                     >
-                        Travel
-                    </Link>
+                        <Link
+                            activeClass="active"
+                            to="travel"
+                            spy={true}
+                            smooth={true}
+                            offset={-95}
+                            duration={500}
+                            color={useColorModeValue('theme_colors.light_green', 'theme_colors.evergreen')}>
+                            Travel
+                        </Link>
+                    </Button>
                 </Box>
-                <Box
-                    as='button'
-                    borderRadius='md'
-                    bg='theme_colors.evergreen'
-                    color='theme_colors.dark_gray'
-                    px={4}
-                    h={8}
-                    _hover={{
-                        color: "theme_colors.dark_gray",
-                        bg: "theme_colors.mint_green",
-                        borderRadius: '5',
-                        shadow: 'md',
-                        transitionDuration: '0.3s',
-                        transitionTimingFunction: "ease-in-out"
-                    }}
-                >
-                    <Link
-                        activeClass="active"
-                        to="minerals"
-                        spy={true}
-                        smooth={true}
-                        offset={-95}
-                        duration={500}
+                <Box align="center" my={1}>
+                    <Button
+                        border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
+                        borderRadius='md'
+                        padding='1.25rem 1.75rem'
+                        bg={useColorModeValue('#081527', 'transparent')}
+                        color='theme_colors.evergreen'
+                        px={4}
+                        h={8}
+                        _hover={{
+                            outline: "none",
+                            boxShadow: '5px 5px 0 0 #5cdb95',
+                            transform: "translate(-5px, -5px)",
+                        }}
                     >
-                        Minerals
-                    </Link>
+                        <Link
+                            activeClass="active"
+                            to="minerals"
+                            spy={true}
+                            smooth={true}
+                            offset={-95}
+                            duration={500}
+                            color={useColorModeValue('theme_colors.light_green', 'theme_colors.evergreen')}
+                        >
+                            Minerals
+                        </Link>
+                    </Button>
                 </Box>
-                <Box
-                    as='button'
-                    borderRadius='md'
-                    bg='theme_colors.evergreen'
-                    color='theme_colors.dark_gray'
-                    px={4}
-                    h={8}
-                    _hover={{
-                        color: "theme_colors.dark_gray",
-                        bg: "theme_colors.mint_green",
-                        borderRadius: '5',
-                        shadow: 'md',
-                        transitionDuration: '0.3s',
-                        transitionTimingFunction: "ease-in-out"
-                    }}
-                >
-                    <Link
-                        activeClass="active"
-                        to="languages"
-                        spy={true}
-                        smooth={true}
-                        offset={-95}
-                        duration={500}
+                <Box align="center" my={1}>
+                    <Button
+                        border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
+                        borderRadius='md'
+                        padding='1.25rem 1.75rem'
+                        bg={useColorModeValue('#081527', 'transparent')}
+                        color='theme_colors.evergreen'
+                        px={4}
+                        h={8}
+                        _hover={{
+                            outline: "none",
+                            boxShadow: '5px 5px 0 0 #5cdb95',
+                            transform: "translate(-5px, -5px)",
+                        }}
                     >
-                        Languages
-                    </Link>
+                        <Link
+                            activeClass="active"
+                            to="languages"
+                            spy={true}
+                            smooth={true}
+                            offset={-95}
+                            duration={500}
+                            color={useColorModeValue('theme_colors.light_green', 'theme_colors.evergreen')}>
+                            Languages
+                        </Link>
+                    </Button>
                 </Box>
             </Stack>
+
             <div id="software"><Software /></div>
             <div id="hardware"><Hardware /></div>
             <div id="blockchain"><Blockchain /></div>

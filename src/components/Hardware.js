@@ -1,6 +1,6 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/layouts/grid-item'
+import { CardItem } from '../components/layouts/grid-item'
 import Paragraph from './paragraph'
 
 const Hardware = () => {
@@ -11,9 +11,9 @@ const Hardware = () => {
                     Hardware
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
-                    <WorkGridItem id="hardware">
+                    <CardItem id="hardware">
                         Currently constructing...
-                    </WorkGridItem>
+                    </CardItem>
                 </SimpleGrid>
                 <Paragraph>
                     Certainly! Here are three paragraphs of Lorem Ipsum filler text:

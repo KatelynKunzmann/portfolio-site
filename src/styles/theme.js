@@ -31,6 +31,7 @@ const fonts = {
 
 const colors = {
     theme_colors: {
+        light_navy: "#121c38",
         midnight_blue: "#1a1333",
         cool_blue: "#05386b",
         sky_blue: "#87ceeb",
@@ -39,9 +40,10 @@ const colors = {
         dark_evergreen: "#15a182",
         light_green: "#8ee4af",
         mint_green: "#64ffda",
-        pale_white: "#edf5e1",
+        pale_white: "#f4f0e9",
         dark_gray: "#282828",
-        slate_gray: "#718093",
+        slate_gray: "#d4d3cf",
+        light_gray: "#b9c6d2",
         purplish: "#bf00ff",
         dark_purple: "#7a00b4",
         lavendar: "#b877db",
