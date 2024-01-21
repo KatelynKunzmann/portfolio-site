@@ -79,12 +79,12 @@ const Home = () => {
                     Adopted my cat, Melody
                 </BioSection>
                 <BioSection>
-                    <BioYear>2018</BioYear>
+                    <BioYear>2019</BioYear>
                     Took my first programming class (Python Programming) and loved it
                 </BioSection>
                 <BioSection>
-                    <BioYear>2019</BioYear>
-                    Declared major as Computer Science
+                    <BioYear>2021</BioYear>
+                    Changed major to Computer Science
                 </BioSection>
                 <BioSection>
                     <BioYear>2023</BioYear>

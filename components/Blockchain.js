@@ -7,7 +7,7 @@ const Blockchain = () => {
     return (
         <Container>
             <Section delay={0.1}>
-                <Heading as="h3" fontSize={28} mt={8}>
+                <Heading as="h3" fontSize={28} mt={8} variant="section-title">
                     Blockchain
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>

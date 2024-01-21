@@ -7,7 +7,7 @@ const Minerals = () => {
     return (
         <Container>
             <Section delay={0.4} id='minerals'>
-                <Heading as="h3" fontSize={28} mt={8}>
+                <Heading as="h3" fontSize={28} mt={8} variant="section-title">
                     Gems & Minerals
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>

@@ -1,19 +1,16 @@
-import { Container, Heading, HStack, Box, IconButton } from '@chakra-ui/react';
+import { Container, Heading, Stack, Box, IconButton } from '@chakra-ui/react';
 import { ChevronUpIcon } from '@chakra-ui/icons';
-import { useRef, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { Link } from "react-scroll"
 import Travel from '../components/Travel';
 import Software from '../components/Software';
 import Hardware from '../components/Hardware';
 import Blockchain from '../components/Blockchain';
-import Gems_and_minerals from '../components/Gems_and_Minerals';
+import Minerals from '../components/Minerals';
 import Languages from '../components/Languages';
 
-const Ventures = () => {
-    const refs = [useRef(null), useRef(null), useRef(null), useRef(null), useRef(null), useRef(null)];
 
-    const handleClick = (index) => {
-        refs[index].current?.scrollIntoView({ behavior: 'smooth' });
-    };
+const Ventures = () => {
 
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -37,41 +34,177 @@ const Ventures = () => {
             <Heading as="h3" fontSize={30} mt={4} mb={4}>
                 My Personal Ventures into...
             </Heading>
-            <HStack direction='row' spacing={2} >
-                {['Software', 'Hardware', 'Blockchain', 'Travel', 'Minerals', 'Languages'].map((label, index) => (
-                    <Box
-                        key={label}
-                        onClick={() => handleClick(index)}
-                        as='button'
-                        borderRadius='md'
-                        bg='theme_colors.cool_blue'
-                        color='white'
-                        px={4}
-                        h={8}
-                        _hover={{
-                            color: "theme_colors.dark_gray",
-                            bg: "theme_colors.light_green",
-                            borderRadius: '5',
-                            shadow: 'md',
-                            transitionDuration: '0.2s',
-                            transitionTimingFunction: "ease-in-out"
-                        }}
+            <Stack direction={{ base: 'column', md: 'row' }} spacing={2} padding={2} justifyContent="center" alignItems="center">
+                <Box
+                    as='button'
+                    borderRadius='md'
+                    bg='theme_colors.cool_blue'
+                    color='white'
+                    px={4}
+                    h={8}
+                    _hover={{
+                        color: "theme_colors.dark_gray",
+                        bg: "theme_colors.light_green",
+                        borderRadius: '5',
+                        shadow: 'md',
+                        transitionDuration: '0.2s',
+                        transitionTimingFunction: "ease-in-out"
+                    }}
+                >
+                    <Link
+                        activeClass="active"
+                        to="software"
+                        spy={true}
+                        smooth={true}
+                        offset={-95}
+                        duration={500}
                     >
-                        {label}
-                    </Box>
-                ))}
-            </HStack>
+                        Software
+                    </Link>
+                </Box>
+                <Box
+                    as='button'
+                    borderRadius='md'
+                    bg='theme_colors.cool_blue'
+                    color='white'
+                    px={4}
+                    h={8}
+                    _hover={{
+                        color: "theme_colors.dark_gray",
+                        bg: "theme_colors.light_green",
+                        borderRadius: '5',
+                        shadow: 'md',
+                        transitionDuration: '0.2s',
+                        transitionTimingFunction: "ease-in-out"
+                    }}
+                >
+                    <Link
+                        activeClass="active"
+                        to="hardware"
+                        spy={true}
+                        smooth={true}
+                        offset={-95}
+                        duration={500}
+                    >
+                        Hardware
+                    </Link>
+                </Box>
+                <Box
+                    as='button'
+                    borderRadius='md'
+                    bg='theme_colors.cool_blue'
+                    color='white'
+                    px={4}
+                    h={8}
+                    _hover={{
+                        color: "theme_colors.dark_gray",
+                        bg: "theme_colors.light_green",
+                        borderRadius: '5',
+                        shadow: 'md',
+                        transitionDuration: '0.2s',
+                        transitionTimingFunction: "ease-in-out"
+                    }}
+                >
+                    <Link
+                        activeClass="active"
+                        to="blockchain"
+                        spy={true}
+                        smooth={true}
+                        offset={-95}
+                        duration={500}
+                    >
+                        Blockchain
+                    </Link>
+                </Box>
+                <Box
+                    as='button'
+                    borderRadius='md'
+                    bg='theme_colors.cool_blue'
+                    color='white'
+                    px={4}
+                    h={8}
+                    _hover={{
+                        color: "theme_colors.dark_gray",
+                        bg: "theme_colors.light_green",
+                        borderRadius: '5',
+                        shadow: 'md',
+                        transitionDuration: '0.2s',
+                        transitionTimingFunction: "ease-in-out"
+                    }}
+                >
+                    <Link
+                        activeClass="active"
+                        to="travel"
+                        spy={true}
+                        smooth={true}
+                        offset={-95}
+                        duration={500}
+                    >
+                        Travel
+                    </Link>
+                </Box>
+                <Box
+                    as='button'
+                    borderRadius='md'
+                    bg='theme_colors.cool_blue'
+                    color='white'
+                    px={4}
+                    h={8}
+                    _hover={{
+                        color: "theme_colors.dark_gray",
+                        bg: "theme_colors.light_green",
+                        borderRadius: '5',
+                        shadow: 'md',
+                        transitionDuration: '0.2s',
+                        transitionTimingFunction: "ease-in-out"
+                    }}
+                >
+                    <Link
+                        activeClass="active"
+                        to="minerals"
+                        spy={true}
+                        smooth={true}
+                        offset={-95}
+                        duration={500}
+                    >
+                        Minerals
+                    </Link>
+                </Box>
+                <Box
+                    as='button'
+                    borderRadius='md'
+                    bg='theme_colors.cool_blue'
+                    color='white'
+                    px={4}
+                    h={8}
+                    _hover={{
+                        color: "theme_colors.dark_gray",
+                        bg: "theme_colors.light_green",
+                        borderRadius: '5',
+                        shadow: 'md',
+                        transitionDuration: '0.2s',
+                        transitionTimingFunction: "ease-in-out"
+                    }}
+                >
+                    <Link
+                        activeClass="active"
+                        to="languages"
+                        spy={true}
+                        smooth={true}
+                        offset={-95}
+                        duration={500}
+                    >
+                        Languages
+                    </Link>
+                </Box>
+            </Stack>
+            <div id="software"><Software /></div>
+            <div id="hardware"><Hardware /></div>
+            <div id="blockchain"><Blockchain /></div>
+            <div id="travel"><Travel /></div>
+            <div id="minerals"><Minerals /></div>
+            <div id="languages"><Languages /></div>
 
-            {['Software', 'Hardware', 'Blockchain', 'Travel', 'Gems_and_minerals', 'Languages'].map((component, index) => (
-                <div key={component} ref={refs[index]}>
-                    {component === 'Software' && <Software />}
-                    {component === 'Hardware' && <Hardware />}
-                    {component === 'Blockchain' && <Blockchain />}
-                    {component === 'Travel' && <Travel />}
-                    {component === 'Gems_and_minerals' && <Gems_and_minerals />}
-                    {component === 'Languages' && <Languages />}
-                </div>
-            ))}
 
             {scrollPosition > 100 && (
                 <IconButton
