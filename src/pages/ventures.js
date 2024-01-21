@@ -44,10 +44,10 @@ const Ventures = () => {
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.light_green",
+                        bg: "theme_colors.sky_blue",
                         borderRadius: '5',
                         shadow: 'md',
-                        transitionDuration: '0.2s',
+                        transitionDuration: '0.3s',
                         transitionTimingFunction: "ease-in-out"
                     }}
                 >
@@ -71,10 +71,10 @@ const Ventures = () => {
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.light_green",
+                        bg: "theme_colors.sky_blue",
                         borderRadius: '5',
                         shadow: 'md',
-                        transitionDuration: '0.2s',
+                        transitionDuration: '0.3s',
                         transitionTimingFunction: "ease-in-out"
                     }}
                 >
@@ -98,10 +98,10 @@ const Ventures = () => {
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.light_green",
+                        bg: "theme_colors.sky_blue",
                         borderRadius: '5',
                         shadow: 'md',
-                        transitionDuration: '0.2s',
+                        transitionDuration: '0.3s',
                         transitionTimingFunction: "ease-in-out"
                     }}
                 >
@@ -125,10 +125,10 @@ const Ventures = () => {
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.light_green",
+                        bg: "theme_colors.sky_blue",
                         borderRadius: '5',
                         shadow: 'md',
-                        transitionDuration: '0.2s',
+                        transitionDuration: '0.3s',
                         transitionTimingFunction: "ease-in-out"
                     }}
                 >
@@ -152,10 +152,10 @@ const Ventures = () => {
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.light_green",
+                        bg: "theme_colors.sky_blue",
                         borderRadius: '5',
                         shadow: 'md',
-                        transitionDuration: '0.2s',
+                        transitionDuration: '0.3s',
                         transitionTimingFunction: "ease-in-out"
                     }}
                 >
@@ -179,10 +179,10 @@ const Ventures = () => {
                     h={8}
                     _hover={{
                         color: "theme_colors.dark_gray",
-                        bg: "theme_colors.light_green",
+                        bg: "theme_colors.sky_blue",
                         borderRadius: '5',
                         shadow: 'md',
-                        transitionDuration: '0.2s',
+                        transitionDuration: '0.3s',
                         transitionTimingFunction: "ease-in-out"
                     }}
                 >
@@ -218,9 +218,9 @@ const Ventures = () => {
                     color="white"
                     borderRadius="md"
                     _hover={{
-                        bgColor: "theme_colors.light_green",
+                        bgColor: "theme_colors.sky_blue",
                         color: "theme_colors.dark_gray",
-                        transitionDuration: '0.2s',
+                        transitionDuration: '0.3s',
                         transitionTimingFunction: "ease-in-out"
                     }}
                 />

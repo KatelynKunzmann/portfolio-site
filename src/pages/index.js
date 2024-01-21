@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Container, Box, Heading, Image, Button, Link } from '@chakra-ui/react'
+import { Container, Box, Heading, Image, Button, Link, useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -7,7 +7,6 @@ import { BioSection, BioYear } from '../components/bio'
 
 const Home = () => {
     return (
-
         <Container>
             <Box
                 borderRadius={15}
@@ -55,10 +54,17 @@ const Home = () => {
                     <NextLink href="experience">
                         <Button
                             rightIcon={<ChevronRightIcon />}
-                            bg="theme_colors.evergreen"
-                            color="theme_colors.dark_gray"
+                            borderRadius='md'
+                            bg='theme_colors.evergreen'
+                            color='theme_colors.dark_gray'
+                            px={4}
+                            h={8}
                             _hover={{
-                                color: "theme_colors.pale_white"
+                                bg: 'theme_colors.mint_green',
+                                borderRadius: '5',
+                                shadow: 'md',
+                                transitionDuration: '0.3s',
+                                transitionTimingFunction: "ease-in-out"
                             }}
                         >
                             Experience
@@ -88,11 +94,11 @@ const Home = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2023</BioYear>
-                    Worked at <Link href="https://www.ncfta.net/" color="theme_colors.purplish" fontWeight="bold">NCFTA</Link> as a Malware Analyst Intern
+                    Worked at <Link href="https://www.ncfta.net/" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>NCFTA</Link> as a Malware Analyst Intern
                 </BioSection>
                 <BioSection>
                     <BioYear>2023</BioYear>
-                    Worked at <Link href="https://tackle.io/" color="theme_colors.purplish" fontWeight="bold">Tackle.io</Link> as a Software Engineer Intern
+                    Worked at <Link href="https://tackle.io/" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Tackle.io </Link> as a Software Engineer Intern
 
                 </BioSection>
                 <BioSection>
@@ -101,7 +107,7 @@ const Home = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2023 to present</BioYear>
-                    Working at <Link href="https://www.upmc.com/" color="theme_colors.purplish" fontWeight="bold">UPMC</Link> as a Software Engineer Associate
+                    Working at <Link href="https://www.upmc.com/" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>UPMC</Link> as a Software Engineer Associate
                 </BioSection>
             </Section>
 
@@ -111,7 +117,7 @@ const Home = () => {
                 </Heading>
                 <Paragraph>
                     Snowboarding, Longboarding, Video Games, Gems and Minerals, Cuddling my cat, and {' '}
-                    <Link href="/keyboards" color="theme_colors.purplish" fontWeight="bold">Building Keyboards!</Link>
+                    <Link href="/keyboards" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Building Keyboards!</Link>
                 </Paragraph>
             </Section>
         </Container>

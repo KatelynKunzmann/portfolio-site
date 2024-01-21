@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/layouts/grid-item'
-import tortoise from '../public/images/travel/galapagos/galapagos-tortoise.JPG'
+import tortoise from '../../public/images/travel/galapagos/galapagos-tortoise.JPG'
 import Paragraph from './paragraph'
 
 const Travel = () => {

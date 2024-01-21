@@ -1,12 +1,12 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/layouts/grid-item'
-import awsthumb from '../public/images/projects/awsthumb01.png'
-import bug from '../public/images/projects/bug.png'
-import fsa from '../public/images/projects/fsa.png'
-import interest from '../public/images/projects/interest.png'
-import catcafe from '../public/images/projects/catcafe.png'
-import typetest from '../public/images/projects/typing-test.png'
+import awsthumb from '../../public/images/projects/awsthumb01.png'
+import bug from '../../public/images/projects/bug.png'
+import fsa from '../../public/images/projects/fsa.png'
+import interest from '../../public/images/projects/interest.png'
+import catcafe from '../../public/images/projects/catcafe.png'
+import typetest from '../../public/images/projects/typing-test.png'
 
 const Software = () => {
     return (
