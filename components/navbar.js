@@ -16,7 +16,7 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 
-const LinkItem = ({ children, to = "/", ...rest }) => {
+export const LinkItem = ({ children, to = "/", ...rest }) => {
     return (
         <Box
             _hover={{

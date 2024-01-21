@@ -88,11 +88,11 @@ const Home = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2023</BioYear>
-                    Worked at <Link href="https://www.ncfta.net/" color="#bf00ff" fontWeight="bold">NCFTA</Link> as a Malware Analyst Intern
+                    Worked at <Link href="https://www.ncfta.net/" color="theme_colors.purplish" fontWeight="bold">NCFTA</Link> as a Malware Analyst Intern
                 </BioSection>
                 <BioSection>
                     <BioYear>2023</BioYear>
-                    Worked at <Link href="https://tackle.io/" color="#bf00ff" fontWeight="bold">Tackle.io</Link> as a Software Engineer Intern
+                    Worked at <Link href="https://tackle.io/" color="theme_colors.purplish" fontWeight="bold">Tackle.io</Link> as a Software Engineer Intern
 
                 </BioSection>
                 <BioSection>
@@ -101,7 +101,7 @@ const Home = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2023 to present</BioYear>
-                    Working at <Link href="https://www.upmc.com/" color="#bf00ff" fontWeight="bold">UPMC</Link> as a Software Engineer Associate
+                    Working at <Link href="https://www.upmc.com/" color="theme_colors.purplish" fontWeight="bold">UPMC</Link> as a Software Engineer Associate
                 </BioSection>
             </Section>
 
@@ -111,7 +111,7 @@ const Home = () => {
                 </Heading>
                 <Paragraph>
                     Snowboarding, Longboarding, Video Games, Gems and Minerals, Cuddling my cat, and {' '}
-                    <Link href="/keyboards" color="#bf00ff" fontWeight="bold">Building Keyboards!</Link>
+                    <Link href="/keyboards" color="theme_colors.purplish" fontWeight="bold">Building Keyboards!</Link>
                 </Paragraph>
             </Section>
         </Container>
