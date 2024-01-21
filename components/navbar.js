@@ -18,7 +18,7 @@ import ThemeToggleButton from './theme-toggle-button'
 
 export const LinkItem = ({ children, to = "/", ...rest }) => {
     return (
-        <Box
+        <Box fontWeight="semibold"
             _hover={{
                 color: "theme_colors.dark_gray",
                 bg: "theme_colors.light_green",

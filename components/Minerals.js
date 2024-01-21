@@ -1,11 +1,12 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import Section from '../components/section'
-import { WorkGridItem } from '../components/layouts/grid-item'
+import Section from './section'
+import { WorkGridItem } from './layouts/grid-item'
 import Paragraph from './paragraph'
-const Gems_and_minerals = () => {
+
+const Minerals = () => {
     return (
         <Container>
-            <Section delay={0.4} id='gems_and_minerals'>
+            <Section delay={0.4} id='minerals'>
                 <Heading as="h3" fontSize={28} mt={8}>
                     Gems & Minerals
                 </Heading>
@@ -28,4 +29,4 @@ const Gems_and_minerals = () => {
     )
 }
 
-export default Gems_and_minerals
+export default Minerals
