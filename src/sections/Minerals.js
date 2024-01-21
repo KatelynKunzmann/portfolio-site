@@ -1,19 +1,19 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import Section from './section'
-import { CardItem } from './layouts/grid-item'
-import Paragraph from './paragraph'
+import Section from '../components/section'
+import { GlossyBox } from '../components/layouts/grid-item'
+import Paragraph from '../components/paragraph'
 
 const Minerals = () => {
     return (
         <Container>
             <Section delay={0.4} id='minerals'>
                 <Heading as="h3" fontSize={28} mt={8} variant="section-title">
-                    Gems & Minerals
+                    Minerals
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
-                    <CardItem id="gems_minerals">
+                    <GlossyBox id="minerals">
                         Currently collecting...
-                    </CardItem>
+                    </GlossyBox>
                 </SimpleGrid>
                 <Paragraph>
                     Certainly! Here are three paragraphs of Lorem Ipsum filler text:

@@ -1,30 +1,11 @@
 import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay, useColorModeValue } from '@chakra-ui/react'
-import { Global } from '@emotion/react'
 
-
-const GridItem = ({ children, href, title, thumbnail }) => (
-    <Box width="100%" align="center">
-        <LinkBox cursor="pointer">
-            <Image src={thumbnail}
-                alt={title}
-                className="grid-item-thumbnail"
-                placeholder="blur"
-                loading='lazy'
-            />
-            <LinkOverlay href={href} target="_blank">
-                <Text mt={2}>{title}</Text>
-            </LinkOverlay>
-            <Text fontSize={14}>{children}</Text>
-        </LinkBox>
-    </Box>
-)
-
-export const GlossyBox = ({ children, id, title, thumbnail }) => (
+const GlossyBox = ({ children, id, title, thumbnail }) => (
     <Box width="100%" align="center" mt={4} mb={4} borderRadius="lg"
         _hover={{
-            color: useColorModeValue("#484848", "theme_colors.sky_blue"),
-            bg: useColorModeValue("#cbc7d0", "#121c38"),
+            color: useColorModeValue("#585858", "theme_colors.sky_blue"),
+            bg: useColorModeValue("#e9e8ec", "#121c38"),
             outline: "none",
             boxShadow: '0 2px 0 0 inset ' + useColorModeValue("#d7d4dc", "#1a233f"),
             transform: "translate(-1px, -1px)",
@@ -47,15 +28,4 @@ export const GlossyBox = ({ children, id, title, thumbnail }) => (
         </LinkBox>
     </Box >
 )
-
-export const GridItemStyle = () => (
-    <Global styles={`
-    .grid-item-thumbnail {
-        border-radius: 12px;
-    }
-    `}
-    />
-)
-
-export default GridItem
-
+export default GlossyBox

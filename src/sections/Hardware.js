@@ -1,19 +1,19 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
-import { CardItem } from '../components/layouts/grid-item'
-import Paragraph from './paragraph'
+import GlossyBox from '../components/GlossyBox'
+import Paragraph from '../components/paragraph'
 
-const Blockchain = () => {
+const Hardware = () => {
     return (
         <Container>
-            <Section delay={0.1}>
+            <Section delay={0.4} id='hardware'>
                 <Heading as="h3" fontSize={28} mt={8} variant="section-title">
-                    Blockchain
+                    Hardware
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
-                    <CardItem id="blockchain">
-                        Currently chaining...
-                    </CardItem>
+                    <GlossyBox id="hardware">
+                        Currently constructing...
+                    </GlossyBox>
                 </SimpleGrid>
                 <Paragraph>
                     Certainly! Here are three paragraphs of Lorem Ipsum filler text:
@@ -38,4 +38,4 @@ const Blockchain = () => {
     )
 }
 
-export default Blockchain
+export default Hardware

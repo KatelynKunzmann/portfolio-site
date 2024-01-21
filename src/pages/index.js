@@ -1,7 +1,7 @@
 import { Container, Box, Heading, Image, Link, useColorModeValue, Flex } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+import { BioSection, BioYear } from '../sections/bio'
 import { PopButton } from '../components/PopButton'
 
 const Home = () => {
@@ -108,7 +108,7 @@ const Home = () => {
                     I ❤️
                 </Heading>
                 <Paragraph>
-                    Snowboarding, Longboarding, Video Games, Gems and Minerals, Cuddling my cat, and {' '}
+                    Snowboarding, Longboarding, Video Games, Minerals, Cuddling my cat, and {' '}
                     <Link href="/hardware/keyboards" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Building Keyboards!</Link>
                 </Paragraph>
             </Section>

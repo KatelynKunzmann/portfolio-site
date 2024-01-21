@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
-import { CardItem } from '../components/layouts/grid-item'
-import Paragraph from './paragraph'
+import GlossyBox from '../components/GlossyBox'
+import Paragraph from '../components/paragraph'
 
 const Languages = () => {
     return (
@@ -11,9 +11,9 @@ const Languages = () => {
                     Languages
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
-                    <CardItem id="languages">
+                    <GlossyBox id="languages">
                         Currently learning...
-                    </CardItem>
+                    </GlossyBox>
                 </SimpleGrid>
                 <Paragraph>
                     Certainly! Here are three paragraphs of Lorem Ipsum filler text:
