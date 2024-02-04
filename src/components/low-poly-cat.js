@@ -12,7 +12,7 @@ const LowPolyCat = () => {
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
     const refRenderer = useRef()
-    const catpath = (process.env.NODE_ENV === 'production' ? 'https://craftzdog.global.ssl.fastly.net/homepage' : '') + '/cute-cat.glb'
+    const catpath = '/lucky_cat.glb'
 
     const handleWindowResize = useCallback(() => {
         const { current: renderer } = refRenderer
@@ -51,7 +51,7 @@ const LowPolyCat = () => {
 
             // 640 -> 240
             // 8   -> 6
-            const scale = scH * 0.005 + 4.8
+            const scale = scH * 0.000005 + 4.8
             const camera = new THREE.OrthographicCamera(
                 -scale,
                 scale,

@@ -45,7 +45,7 @@ const Home = () => {
                 </Box>
 
                 <Section delay={0.1}>
-                    <Heading as="h3" variant="section-title" textDecoration="none">
+                    <Heading fontSize="28px" as="h3" variant="section-title" textDecoration="none">
                         💻Code  ☕Coffee  🐈Cats
                     </Heading>
                     <Paragraph>sums up my life as a cat-lover, developer, bean juice aficionado, and all-around tech geek.
