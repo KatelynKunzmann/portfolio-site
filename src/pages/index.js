@@ -16,7 +16,7 @@ const Home = () => {
                 m={6}
                 textAlign="center"
             >
-                Hello, I&apos;m a full-stack developer based in Pittsburgh!
+                Hello, I&apos;m a Software Developer based in Pittsburgh!
             </Box>
 
             <Box display={{ md: 'flex' }}>
@@ -70,12 +70,16 @@ const Home = () => {
                     Adopted my cat, Melody
                 </BioSection>
                 <BioSection>
+                    <BioYear>2017</BioYear>
+                    Moved to Pittsburgh
+                </BioSection>
+                <BioSection>
                     <BioYear>2019</BioYear>
                     Took my first programming class (Python Programming) and loved it
                 </BioSection>
                 <BioSection>
                     <BioYear>2021</BioYear>
-                    Changed major to Computer Science
+                    Declared Computer Science major
                 </BioSection>
                 <BioSection>
                     <BioYear>2023</BioYear>
@@ -85,6 +89,10 @@ const Home = () => {
                     <BioYear>2023</BioYear>
                     Worked at <Link href="https://tackle.io/" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Tackle.io </Link> as a Software Engineer Intern
 
+                </BioSection>
+                <BioSection>
+                    <BioYear>2023</BioYear>
+                    Graduated from the University of Pittsburgh with a Bachelor's Degree in Computer Science
                 </BioSection>
                 <BioSection>
                     <Flex direction="column" align="left">
