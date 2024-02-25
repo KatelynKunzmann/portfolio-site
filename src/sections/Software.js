@@ -29,8 +29,8 @@ const Software = () => {
                     against a number of different types of security threats
                 </GlossyBox>
                 <GlossyBox id="student_loan_site" title="Student Loan Calculation Website" thumbnail={interest}>
-                    A web application that calculates your student loan payments
-                    Provides an amortization table of payments, a loan summary,
+                    A web application that calculates your student loan payments and
+                    provides an amortization table of payments, a loan summary,
                     and a loan safety ratio
                 </GlossyBox>
                 <GlossyBox id="cat_cafe_site" title="Cat Cafe Website" thumbnail={catcafe}>

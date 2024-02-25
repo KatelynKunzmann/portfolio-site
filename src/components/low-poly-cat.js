@@ -12,7 +12,7 @@ const LowPolyCat = () => {
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
     const refRenderer = useRef()
-    const catpath = '/lucky_cat.glb'
+    const catpath = '/cute_cat_low-poly.glb'
 
     const handleWindowResize = useCallback(() => {
         const { current: renderer } = refRenderer
