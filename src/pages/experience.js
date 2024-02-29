@@ -1,10 +1,13 @@
-import { Box } from "@chakra-ui/react";
-import LowPolyCat from "../components/low-poly-cat";
+import { Box, Container } from '@chakra-ui/react'
+import Section from '../components/section'
 
 const experience = () => {
-
-
-
+    return (
+        <Container>
+            <Section>
+                Current
+            </Section>
+        </Container>
+    )
 };
-
 export default experience;

@@ -1,6 +1,6 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
-import { GlossyBox } from '../components/layouts/grid-item'
+import GlossyBox from '../components/GlossyBox'
 import Paragraph from '../components/paragraph'
 
 const Minerals = () => {

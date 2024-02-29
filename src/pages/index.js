@@ -1,13 +1,21 @@
 import { Container, Box, Heading, Image, Link, useColorModeValue, Flex } from '@chakra-ui/react'
+import dynamic from 'next/dynamic'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../sections/bio'
 import { PopButton } from '../components/PopButton'
 import Layout from '../components/layouts/article'
+import LowPolyCatLoader from '../components/low-poly-cat-loader.js'
+
+const LowPolyCat = dynamic(() => import('../components/low-poly-cat.js'), {
+    ssr: false,
+    loading: () => <LowPolyCatLoader />
+})
 
 const Home = () => {
     return (
         <Layout>
+            <LowPolyCat />
             <Container>
                 <Box
                     borderRadius={15}
@@ -18,7 +26,7 @@ const Home = () => {
                     m={6}
                     textAlign="center"
                 >
-                    Hello, I&apos;m a full-stack developer based in Pittsburgh!
+                    Hello, I&apos;m a software developer based in Pittsburgh!
                 </Box>
 
                 <Box display={{ md: 'flex' }}>
@@ -68,8 +76,16 @@ const Home = () => {
                         Born in Biloxi, MS
                     </BioSection>
                     <BioSection>
+                        <BioYear>2003</BioYear>
+                        Moved to Pennsylvania
+                    </BioSection>
+                    <BioSection>
                         <BioYear>2012</BioYear>
                         Adopted my cat, Melody
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2014</BioYear>
+                        Graduated High School
                     </BioSection>
                     <BioSection>
                         <BioYear>2017</BioYear>
@@ -90,7 +106,6 @@ const Home = () => {
                     <BioSection>
                         <BioYear>2023</BioYear>
                         Worked at <Link href="https://tackle.io/" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Tackle.io </Link> as a Software Engineer Intern
-
                     </BioSection>
                     <BioSection>
                         <BioYear>2023</BioYear>

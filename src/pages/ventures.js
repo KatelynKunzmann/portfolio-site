@@ -34,7 +34,7 @@ const Ventures = () => {
                 My Personal Ventures into...
             </Heading>
             <Stack direction={{ base: 'column', md: 'row' }} justifyContent="center" alignItems="center">
-                <Box align="center" mx={1}>
+                <Box align="center" my={1}>
                     <Button
                         border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
                         borderRadius='md'
@@ -199,6 +199,7 @@ const Ventures = () => {
                     </Button>
                 </Box>
             </Stack>
+
 
             <div id="software"><Software /></div>
             <div id="hardware"><Hardware /></div>
