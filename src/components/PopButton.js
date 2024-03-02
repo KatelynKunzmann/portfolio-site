@@ -7,8 +7,7 @@ export const PopButton = ({ label, id }) => {
             border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
             borderRadius='md'
             padding='1.25rem 1.75rem'
-            bg={useColorModeValue('#081527', 'transparent')}
-            color='theme_colors.evergreen'
+            bg='transparent'
             px={4}
             h={8}
             _hover={{
@@ -19,7 +18,7 @@ export const PopButton = ({ label, id }) => {
         >
             <Link href={`/${id}`}
                 style={{ textDecoration: 'none' }}
-                color={useColorModeValue('theme_colors.light_green', 'theme_colors.evergreen')}>
+                color={useColorModeValue('theme_colors.dark_evergreen', 'theme_colors.evergreen')}>
                 {label}
             </Link>
 

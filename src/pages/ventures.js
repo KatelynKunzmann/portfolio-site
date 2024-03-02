@@ -39,8 +39,8 @@ const Ventures = () => {
                         border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
                         borderRadius='md'
                         padding='1.25rem 1.75rem'
-                        bg={useColorModeValue('#081527', 'transparent')}
-                        color='theme_colors.evergreen'
+                        bg='transparent'
+                        color={useColorModeValue('theme_colors.dark_evergreen', 'theme_colors.light_green')}
                         px={4}
                         h={8}
                         _hover={{
@@ -67,8 +67,8 @@ const Ventures = () => {
                         border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
                         borderRadius='md'
                         padding='1.25rem 1.75rem'
-                        bg={useColorModeValue('#081527', 'transparent')}
-                        color='theme_colors.evergreen'
+                        bg='transparent'
+                        color={useColorModeValue('theme_colors.dark_evergreen', 'theme_colors.light_green')}
                         px={4}
                         h={8}
                         _hover={{
@@ -94,8 +94,8 @@ const Ventures = () => {
                         border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
                         borderRadius='md'
                         padding='1.25rem 1.75rem'
-                        bg={useColorModeValue('#081527', 'transparent')}
-                        color='theme_colors.evergreen'
+                        bg='transparent'
+                        color={useColorModeValue('theme_colors.dark_evergreen', 'theme_colors.light_green')}
                         px={4}
                         h={8}
                         _hover={{
@@ -121,8 +121,8 @@ const Ventures = () => {
                         border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
                         borderRadius='md'
                         padding='1.25rem 1.75rem'
-                        bg={useColorModeValue('#081527', 'transparent')}
-                        color='theme_colors.evergreen'
+                        bg='transparent'
+                        color={useColorModeValue('theme_colors.dark_evergreen', 'theme_colors.light_green')}
                         px={4}
                         h={8}
                         _hover={{
@@ -148,8 +148,8 @@ const Ventures = () => {
                         border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
                         borderRadius='md'
                         padding='1.25rem 1.75rem'
-                        bg={useColorModeValue('#081527', 'transparent')}
-                        color='theme_colors.evergreen'
+                        bg='transparent'
+                        color={useColorModeValue('theme_colors.dark_evergreen', 'theme_colors.light_green')}
                         px={4}
                         h={8}
                         _hover={{
@@ -176,8 +176,8 @@ const Ventures = () => {
                         border={useColorModeValue('2px solid #1a1333', '2px solid #64ffda')}
                         borderRadius='md'
                         padding='1.25rem 1.75rem'
-                        bg={useColorModeValue('#081527', 'transparent')}
-                        color='theme_colors.evergreen'
+                        bg='transparent'
+                        color={useColorModeValue('theme_colors.dark_evergreen', 'theme_colors.light_green')}
                         px={4}
                         h={8}
                         _hover={{

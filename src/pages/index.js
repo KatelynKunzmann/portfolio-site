@@ -59,10 +59,15 @@ const Home = () => {
                     <Paragraph>sums up my life as a cat-lover, developer, bean juice aficionado, and all-around tech geek.
                         You can find me coding away with my furrbaby purring louder than my computer!
                     </Paragraph>
-                    <Box align="center" my={4}>
+                    <Box display={'flex'} justifyContent={'center'} gap={2}>
                         <PopButton
                             label="Experience"
                             id="experience"
+                        >
+                        </PopButton>
+                        <PopButton
+                            label="Portfolio"
+                            id="ventures"
                         >
                         </PopButton>
                     </Box>
@@ -109,7 +114,7 @@ const Home = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2023</BioYear>
-                        Graduated from the University of Pittsburgh with a Bachelor's Degree in Computer Science
+                        Graduated from the University of Pittsburgh with a Bachelor&apos;s Degree in Computer Science
                     </BioSection>
                     <BioSection>
                         <Flex direction="column" align="left">
