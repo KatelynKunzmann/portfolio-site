@@ -2,7 +2,25 @@ import { Box, Container, Link, useColorModeValue, Heading, Button } from '@chakr
 import { DownloadIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
-import Donut from '../components/Donut'
+import { Doughnut } from 'react-chartjs-2'
+import { Chart, ArcElement } from 'chart.js'
+Chart.register(ArcElement);
+
+const data = {
+    labels: [
+        'Red',
+        'Blue',
+    ],
+    datasets: [{
+        label: 'My First Dataset',
+        data: [300, 50, 100],
+        backgroundColor: [
+            'rgb(255, 99, 132)',
+            'rgb(54, 162, 235)',
+        ],
+        hoverOffset: 4
+    }]
+};
 
 const Experience = () => {
     return (
@@ -137,6 +155,9 @@ const Experience = () => {
                     <Heading mt={20} as="h3" variant="title">
                         Coding Skills
                     </Heading>
+                    <Doughnut
+                        data={data}
+                    />
                 </Section>
             </Container>
         </Layout>
