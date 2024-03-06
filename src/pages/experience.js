@@ -2,24 +2,21 @@ import { Box, Container, Link, useColorModeValue, Heading, Button } from '@chakr
 import { DownloadIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
-import { Doughnut } from 'react-chartjs-2'
-import { Chart, ArcElement } from 'chart.js'
-Chart.register(ArcElement);
+import Paragraph from '../components/paragraph'
+import DoughnutChart from '../components/DoughnutChart'
 
-const data = {
-    labels: [
-        'Red',
-        'Blue',
+const chartData = {
+    labels: ['C#/.NET', 'Python', 'Java', 'C', 'JavaScript', 'HTML&CSS', 'x86'],
+    values: [20, 20, 20, 15, 10, 10, 5],
+    backgroundColor: [
+        "#FF6384", // Red
+        "#36A2EB", // Blue
+        "#FFCE56", // Yellow
+        "#4BC0C0", // Aqua
+        "#FF8C00", // Orange
+        "#9932CC", // Purple
+        "#2E8B57", // Sea Green
     ],
-    datasets: [{
-        label: 'My First Dataset',
-        data: [300, 50, 100],
-        backgroundColor: [
-            'rgb(255, 99, 132)',
-            'rgb(54, 162, 235)',
-        ],
-        hoverOffset: 4
-    }]
 };
 
 const Experience = () => {
@@ -155,9 +152,24 @@ const Experience = () => {
                     <Heading mt={20} as="h3" variant="title">
                         Coding Skills
                     </Heading>
-                    <Doughnut
-                        data={data}
-                    />
+                    <DoughnutChart data={chartData} width={400} height={400} />
+                    <Heading mt={20} as="h3" variant="section-title" textDecoration="None">
+                        Development Tools
+                    </Heading>
+                    <Paragraph>
+                        Cloud: AWS
+                        <br />
+                        Frameworks: React, FastAPI, HTTPX, Node.js, three.js
+                        <br />
+                        Databases: SQL Server, SSMS, PostgreSQL
+                        <br />
+                        Source Control: GitHub, Bitbucket
+                        <br />
+                        Testing: Unit Testing, Selenium, Postman
+                        <br />
+                        Other Skills: Linux, Git
+                        <br />
+                    </Paragraph>
                 </Section>
             </Container>
         </Layout>
