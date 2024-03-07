@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import Section from '../components/section'
+import Section from '../components/Section'
 import GlossyBox from '../components/GlossyBox'
-import Paragraph from '../components/paragraph'
+import Paragraph from '../components/Paragraph'
 
 const Blockchain = () => {
     return (

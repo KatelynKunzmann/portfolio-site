@@ -1,9 +1,10 @@
-import { Box, Container, Link, useColorModeValue, Heading, Button } from '@chakra-ui/react'
+import { Box, Container, Link, useColorModeValue, Heading, Button, Flex } from '@chakra-ui/react'
 import { DownloadIcon } from '@chakra-ui/icons'
-import Section from '../components/section'
-import Layout from '../components/layouts/article'
-import Paragraph from '../components/paragraph'
+import Section from '../components/Section'
+import Layout from '../components/layouts/Article'
+import Paragraph from '../components/Paragraph'
 import DoughnutChart from '../components/DoughnutChart'
+import RoundedBox from '../components/RoundedBox'
 
 const chartData = {
     labels: ['C#/.NET', 'Python', 'Java', 'C', 'JavaScript', 'HTML&CSS', 'x86'],
@@ -56,6 +57,15 @@ const Experience = () => {
                             </li>
                         </ul>
                     </Box>
+                    <Flex flexWrap="wrap">
+                        <RoundedBox label={"C#"} />
+                        <RoundedBox label={".NET"} />
+                        <RoundedBox label={".NET Core"} />
+                        <RoundedBox label={"ASP.NET"} />
+                        <RoundedBox label={"VB"} />
+                        <RoundedBox label={"SQL"} />
+                        <RoundedBox label={"SSMS"} />
+                    </Flex>
                 </Section>
                 <Section delay={0.2}>
                     <Heading variant="paragraph-title">
@@ -87,6 +97,13 @@ const Experience = () => {
                             </li>
                         </ul>
                     </Box>
+                    <Flex flexWrap="wrap">
+                        <RoundedBox label={"Python"} />
+                        <RoundedBox label={"AWS"} />
+                        <RoundedBox label={"FastAPI"} />
+                        <RoundedBox label={"HTTPX"} />
+                        <RoundedBox label={"PostgreSQL"} />
+                    </Flex>
                 </Section>
                 <Section delay={.3}>
                     <Heading variant="paragraph-title">
@@ -108,7 +125,6 @@ const Experience = () => {
                         <ul style={{ paddingLeft: '20px' }}>
                             <li>
                                 Developed a new malware analysis tool
-
                             </li>
                             <li>
                                 Conducted static and dynamic analysis on malware and ransomware variants
@@ -119,6 +135,14 @@ const Experience = () => {
                             </li>
                         </ul>
                     </Box>
+                    <Flex flexWrap="wrap">
+                        <RoundedBox label={"JavaScript"} />
+                        <RoundedBox label={"HTML"} />
+                        <RoundedBox label={"CSS"} />
+                        <RoundedBox label={"Node.js"} />
+                        <RoundedBox label={"Express.js"} />
+                        <RoundedBox label={"Linux"} />
+                    </Flex>
                 </Section>
                 <Box display={'flex'} justifyContent={'center'}>
                     <Link
@@ -152,7 +176,7 @@ const Experience = () => {
                     <Heading mt={20} as="h3" variant="title">
                         Coding Skills
                     </Heading>
-                    <DoughnutChart data={chartData} width={400} height={400} />
+                    <DoughnutChart data={chartData} />
                     <Heading mt={20} as="h3" variant="section-title" textDecoration="None">
                         Development Tools
                     </Heading>

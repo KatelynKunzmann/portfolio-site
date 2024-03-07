@@ -1,8 +1,8 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import Section from '../components/section'
+import Section from '../components/Section'
 import GlossyBox from '../components/GlossyBox'
 import tortoise from '../../public/images/travel/galapagos/galapagos-tortoise.JPG'
-import Paragraph from '../components/paragraph'
+import Paragraph from '../components/Paragraph'
 
 const Travel = () => {
     return (
@@ -13,7 +13,7 @@ const Travel = () => {
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <GlossyBox id="galapagos" title="Galapagos Islands" thumbnail={tortoise}>
-                        Galapagos Islands and Quito, Ecuador research trip 2019
+                        Galapagos Islands Research Trip 2019
                     </GlossyBox>
                 </SimpleGrid>
                 <Paragraph>

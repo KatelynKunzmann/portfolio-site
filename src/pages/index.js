@@ -1,13 +1,13 @@
 import { Container, Box, Heading, Image, Link, useColorModeValue, Flex } from '@chakra-ui/react'
 import dynamic from 'next/dynamic'
-import Section from '../components/section'
-import Paragraph from '../components/paragraph'
+import Section from '../components/Section'
+import Paragraph from '../components/Paragraph'
 import { BioSection, BioYear } from '../sections/bio'
 import { PopButton } from '../components/PopButton'
-import Layout from '../components/layouts/article'
-import LowPolyCatLoader from '../components/low-poly-cat-loader.js'
+import Layout from '../components/layouts/Article'
+import LowPolyCatLoader from '../components/Low-Poly-Cat-Loader.js'
 
-const LowPolyCat = dynamic(() => import('../components/low-poly-cat.js'), {
+const LowPolyCat = dynamic(() => import('../components/Low-Poly-Cat.js'), {
     ssr: false,
     loading: () => <LowPolyCatLoader />
 })
@@ -59,7 +59,7 @@ const Home = () => {
                     <Paragraph>sums up my life as a cat-lover, developer, bean juice aficionado, and all-around tech geek.
                         You can find me coding away with my furrbaby purring louder than my computer!
                     </Paragraph>
-                    <Box display={'flex'} justifyContent={'center'} gap={2}>
+                    <Box display={'flex'} justifyContent={'center'} gap={2} m={2}>
                         <PopButton
                             label="Experience"
                             id="experience"

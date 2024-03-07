@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay, useColorModeValue } from '@chakra-ui/react'
 
 const GlossyBox = ({ children, id, title, thumbnail }) => (
-    <Box width="100%" align="center" mt={4} mb={4} borderRadius="lg"
+    <Box align="center" mt={4} mb={4} borderRadius="lg"
         _hover={{
             color: useColorModeValue("#585858", "theme_colors.sky_blue"),
             bg: useColorModeValue("#e9e8ec", "#121c38"),

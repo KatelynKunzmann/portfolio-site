@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 
-const DoughnutChart = ({ data, width, height }) => {
+const DoughnutChart = ({ data }) => {
     const chartRef = useRef(null);
     const chartInstance = useRef(null);
 
@@ -24,14 +24,21 @@ const DoughnutChart = ({ data, width, height }) => {
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            labels: {
+                                color: 'gray',
+                            }
+                        }
+                    }
                 }
             });
         }
-    }, [data, width, height]);
+    }, [data]);
 
     return (
         <div>
-            <canvas ref={chartRef} width={width} height={height} />
+            <canvas ref={chartRef} />
         </div>
     );
 };
