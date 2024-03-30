@@ -52,9 +52,6 @@ const Experience = () => {
                             <li>
                                 Provided effective support for production issues, identifying root causes and implementing corrective actions
                             </li>
-                            <li>
-                                Improved technical documentation
-                            </li>
                         </ul>
                     </Box>
                     <Flex flexWrap="wrap">
@@ -86,14 +83,10 @@ const Experience = () => {
                     <Box>
                         <ul style={{ paddingLeft: '20px' }}>
                             <li>
-                                Designed, developed and deployed a reverse proxy server that securely stores AWS credentials and facilitates API calls with
-                                AWS services
+                                Designed, developed and deployed a reverse proxy for secure AWS API interactions
                             </li>
                             <li>
-                                Set up PostgreSQL database that securely holds 500 AWS account credentials
-                            </li>
-                            <li>
-                                Containerized application into a Linux Docker container
+                                Set up PostgreSQL database securely managing 500+ AWS credentials
                             </li>
                         </ul>
                     </Box>
@@ -124,7 +117,7 @@ const Experience = () => {
                     <Box>
                         <ul style={{ paddingLeft: '20px' }}>
                             <li>
-                                Developed a new malware analysis tool
+                                Developed a new malware analysis tool enhancing threat identification
                             </li>
                             <li>
                                 Conducted static and dynamic analysis on malware and ransomware variants
@@ -146,7 +139,7 @@ const Experience = () => {
                 </Section>
                 <Box display={'flex'} justifyContent={'center'}>
                     <Link
-                        href="https://drive.google.com/file/d/1C3XT_cBHmo4ZCdcI9Q6flAPvfmMh5A9E/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1n6aDDl_iD2CnYjEJ6jArtQdO73t4bG2v/view?usp=sharing"
                         isExternal
                         style={{ textDecoration: 'none' }}
                         color={useColorModeValue('theme_colors.light_green', 'theme_colors.evergreen')}
