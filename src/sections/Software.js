@@ -13,7 +13,7 @@ const Software = () => {
             <Heading as="h3" fontSize={28} mt={8} variant="section-title">
                 Software
             </Heading>
-            <Box display="flex" flexWrap="wrap">
+            <Box flexWrap="wrap">
                 <GlossyBox id="aws_proxy_server" title="AWS Proxy Server" thumbnail={aws}>
                     A reverse proxy server that securely stores customer AWS credentials and
                     facilitates interactions with AWS services on behalf of customers
