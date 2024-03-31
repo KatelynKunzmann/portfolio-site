@@ -106,11 +106,11 @@ const Home = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2023</BioYear>
-                        Worked at <Link href="https://www.ncfta.net/" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>NCFTA</Link> as a Malware Analyst Intern
+                        Worked at <Link href="https://www.ncfta.net/" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>NCFTA</Link> as a Malware Analyst Intern
                     </BioSection>
                     <BioSection>
                         <BioYear>2023</BioYear>
-                        Worked at <Link href="https://tackle.io/" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Tackle.io </Link> as a Software Engineer Intern
+                        Worked at <Link href="https://tackle.io/" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Tackle.io </Link> as a Software Engineer Intern
                     </BioSection>
                     <BioSection>
                         <BioYear>2023</BioYear>
@@ -123,6 +123,7 @@ const Home = () => {
                         Working at{' '}
                         <Link
                             href="https://www.upmc.com/"
+                            isExternal
                             color={useColorModeValue('theme_colors.dark_purple', 'theme_colors.purplish')}
                             fontWeight="bold"
                             _hover={{ color: 'theme_colors.lavendar' }}
