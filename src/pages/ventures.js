@@ -31,7 +31,7 @@ const Ventures = () => {
         <Layout>
             <Container>
                 <Heading as="h3" fontSize={30} mt={6} mb={6}>
-                    My Personal Ventures into...
+                    Check out my Ventures into...
                 </Heading>
                 <Stack direction={{ base: 'column', md: 'row' }} justifyContent="center" alignItems="center">
                     <Box align="center" my={1}>
