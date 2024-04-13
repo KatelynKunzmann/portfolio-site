@@ -62,12 +62,12 @@ const Home = () => {
                     <Box display={'flex'} justifyContent={'center'} gap={2} m={2}>
                         <PopButton
                             label="Experience"
-                            id="experience"
+                            id="Experience"
                         >
                         </PopButton>
                         <PopButton
                             label="Portfolio"
-                            id="ventures"
+                            id="Ventures"
                         >
                         </PopButton>
                     </Box>

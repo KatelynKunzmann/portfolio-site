@@ -19,7 +19,7 @@ const GlossyBox = ({ children, id, title, thumbnail }) => (
             bg='transparent'
         >
             <Image src={thumbnail} alt={title} className="grid-item-thumbnail" />
-            <LinkOverlay href={`/ventures/${id}`}>
+            <LinkOverlay href={`/Ventures/${id}`}>
                 <Text mt={2} fontSize={22} fontWeight="bold">
                     {title}
                 </Text>
