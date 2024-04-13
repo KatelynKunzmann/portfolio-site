@@ -2,7 +2,7 @@ import { Container, Box, Heading, Image, Link, useColorModeValue, Flex } from '@
 import dynamic from 'next/dynamic'
 import Section from '../components/Section.js'
 import Paragraph from '../components/Paragraph.js'
-import { BioSection, BioYear } from '../sections/bio'
+import { BioSection, BioYear } from '../sections/Bio.js'
 import { PopButton } from '../components/PopButton'
 import Layout from '../components/layouts/Article.js'
 import LowPolyCatLoader from '../components/Low-Poly-Cat-Loader.js'
