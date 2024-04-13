@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Navbar from '../Navbar.js'
 import { Box, Container } from '@chakra-ui/react'
 
-const Main = ({ children, router }) => {
+const main = ({ children, router }) => {
     return (
         <Box as="main" pb={8}>
             <Head>
@@ -17,4 +17,4 @@ const Main = ({ children, router }) => {
         </Box>
     )
 }
-export default Main
+export default main
