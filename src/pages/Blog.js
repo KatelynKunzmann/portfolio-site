@@ -7,7 +7,7 @@ const Blog = () => {
     return (
         <Layout>
             <Container>
-                <Section delay={0.4} id='blog'>
+                <Section delay={0.4} id='Blog'>
                     <Heading as="h3" fontSize={28} mt={8} variant="section-title">
                         Blog
                     </Heading>

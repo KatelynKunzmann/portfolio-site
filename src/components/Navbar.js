@@ -70,9 +70,9 @@ const Navbar = props => {
                     mt={{ base: 4, nmd: 0 }}
                 >
                     <LinkItem to="/">About</LinkItem>
-                    <LinkItem to="/experience">Experience</LinkItem>
-                    <LinkItem to="/ventures">Ventures</LinkItem>
-                    <LinkItem to="/blog">Blog</LinkItem>
+                    <LinkItem to="/Experience">Experience</LinkItem>
+                    <LinkItem to="/Ventures">Ventures</LinkItem>
+                    <LinkItem to="/Blog">Blog</LinkItem>
                 </Stack>
 
                 <Box flex={1} align="right" >
@@ -89,9 +89,9 @@ const Navbar = props => {
                             />
                             <MenuList>
                                 <MenuItem as='a' href="/" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>About</MenuItem>
-                                <MenuItem as='a' href="/experience" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Experience</MenuItem>
-                                <MenuItem as='a' href="/ventures" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Ventures</MenuItem>
-                                <MenuItem as='a' href="/blog" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Blog</MenuItem>
+                                <MenuItem as='a' href="/Experience" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Experience</MenuItem>
+                                <MenuItem as='a' href="/Ventures" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Ventures</MenuItem>
+                                <MenuItem as='a' href="/Blog" _hover={{ color: "theme_colors.dark_gray", bg: "theme_colors.light_green", borderRadius: '3' }}>Blog</MenuItem>
                             </MenuList>
                         </Menu>
                     </Box>
