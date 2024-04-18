@@ -18,23 +18,23 @@ const Software = () => {
                     A reverse proxy server that securely stores customer AWS credentials and
                     facilitates interactions with AWS services on behalf of customers
                 </GlossyBox>
-                <GlossyBox id="mal_monthly" title="Malware Data Scraper" thumbnail={malware}>
+                <GlossyBox id="https://github.com/KatelynKunzmann/Mal-Monthly" title="Malware Data Scraper" thumbnail={malware}>
                     A web application that displays the most shared malware for the past 30 days, exceeding 15,000 entries
                 </GlossyBox>
-                <GlossyBox id="file_sharing_cli_application" title="Secure File-Sharing CLI Application" thumbnail={fsa}>
+                <GlossyBox id="https://github.com/KatelynKunzmann/File-Application-System" title="Secure File-Sharing CLI Application" thumbnail={fsa}>
                     Secure group-based file-sharing CLI application that is secure
                     against a number of different types of security threats
                 </GlossyBox>
-                <GlossyBox id="student_loan_site" title="Student Loan Calculation Website" thumbnail={interest}>
+                <GlossyBox id="https://github.com/KatelynKunzmann/interest" title="Student Loan Calculation Website" thumbnail={interest}>
                     A web application that calculates your student loan payments and
                     provides an amortization table of payments, a loan summary,
                     and a loan safety ratio
                 </GlossyBox>
-                <GlossyBox id="typing_test_site" title="Typing Test Website" thumbnail={typetest}>
+                <GlossyBox id="https://github.com/KatelynKunzmann/typing-test" title="Typing Test Website" thumbnail={typetest}>
                     Inspired by my niece who is learning how to type
                     and I will soon start teaching her how to code
                 </GlossyBox>
-                <GlossyBox id="cat_cafe_site" title="Cat Cafe Website" thumbnail={catcafe}>
+                <GlossyBox id="https://github.com/KatelynKunzmann/MeowMatch" title="Cat Cafe Website" thumbnail={catcafe}>
                     Cat Cafe website - currently in development
                 </GlossyBox>
             </Box>
