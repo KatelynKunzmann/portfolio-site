@@ -25,15 +25,17 @@ const keyboards = () => {
                     <br />
                     Below are the keyboards I have made so far in my keyboard building journey:
                 </Section>
-                <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                    <Image src={katkeeb} alt="Cat keyboard" className="grid-item-thumbnail" />
-                </Box>
-                <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                    <Image src={retrokeeb} alt="Retro keyboard" className="grid-item-thumbnail" />
-                </Box>
-                <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                    <Image src={tealkeeb} alt="Teal keyboard" className="grid-item-thumbnail" />
-                </Box>
+                <Section delay={0.6}>
+                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        <Image src={katkeeb} alt="Cat keyboard" className="grid-item-thumbnail" />
+                    </Box>
+                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        <Image src={retrokeeb} alt="Retro keyboard" className="grid-item-thumbnail" />
+                    </Box>
+                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        <Image src={tealkeeb} alt="Teal keyboard" className="grid-item-thumbnail" />
+                    </Box>
+                </Section>
             </Container>
         </Layout>
 
