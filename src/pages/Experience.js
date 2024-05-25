@@ -174,13 +174,13 @@ const Experience = () => {
                         Development Tools
                     </Heading>
                     <Paragraph>
+                        Frameworks: .NET, React, FastAPI, HTTPX, Node.js, Express, Next.js three.js
+                        <br />
                         Cloud: AWS
                         <br />
-                        Frameworks: React, FastAPI, HTTPX, Node.js, three.js
+                        Databases: SQL, SSMS, PostgreSQL
                         <br />
-                        Databases: SQL Server, SSMS, PostgreSQL
-                        <br />
-                        Source Control: GitHub, Bitbucket
+                        Source Control: GitHub, Bitbucket, Sourcetree
                         <br />
                         Testing: Unit Testing, Selenium, Postman
                         <br />
