@@ -140,7 +140,7 @@ const Home = () => {
                     </Heading>
                     <Paragraph>
                         Snowboarding, Longboarding, Video Games, Minerals, Cuddling my cat, and {' '}
-                        <Link href="/hardware/keyboards" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Building Keyboards!</Link>
+                        <Link href="/keyboards" color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Building Keyboards!</Link>
                     </Paragraph>
                 </Section>
             </Container>
