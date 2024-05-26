@@ -10,7 +10,7 @@ const Hardware = () => {
                 <Heading as="h3" fontSize={28} mt={8} variant="section-title">
                     Hardware
                 </Heading>
-                <GlossyBox id="keyboards" title="Keyboards" thumbnail={katkeeb}>
+                <GlossyBox id="Keyboards" title="Keyboards" thumbnail={katkeeb}>
                 </GlossyBox>
             </Section>
         </Container>

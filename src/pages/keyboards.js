@@ -6,21 +6,20 @@ import retrokeeb from '../../public/images/hardware/retro-keeb.jpeg'
 import tealkeeb from '../../public/images/hardware/teal-keeb.jpeg'
 import Section from '../components/Section'
 
-const keyboards = () => {
+const Keyboards = () => {
     return (
         <Layout>
 
-            <Container thumbnail={katkeeb}>
+            <Container>
                 <Heading as="h3" fontSize={28} mt={8} variant="section-title">
                     My Keyboards
                 </Heading>
                 <Section delay={0.4}>
                     I love the meticulous and stubborn art of constructing keyboards.
-                    I get to pick and choose the aesthetic and control every small detail and specification to the finest degree.
-                    Building keyboards has become my creative outlet, blending technology and design in a way that brings me joy.
+                    It allows me to choose the aesthetic and control every small detail and specification to the finest degree.
                     I enjoy the process of refining and customizing my keyboards to achieve the perfect sound and feel for my own taste.
-                    It&apos;s not just about creating the perfect keyboard though, but about giving a simplistic, overlooked everyday device an individuality.
-                    It&apos;s a relaxing journey of self-expression in something I find comforting and enjoyable.
+                    It&apos;s not just about creating the perfect keyboard; it&apos;s about infusing a simplistic, often overlooked everyday device with an individuality.
+                    This journey has been a relaxing and fulfilling form of self-expression, bringing comfort and joy into my life.
                     <br />
                     <br />
                     Below are the keyboards I have made so far in my keyboard building journey:
@@ -42,4 +41,4 @@ const keyboards = () => {
     )
 }
 
-export default keyboards
+export default Keyboards

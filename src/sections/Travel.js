@@ -12,11 +12,11 @@ const Travel = () => {
                     Travel
                 </Heading>
                 <Box flexWrap="wrap">
-                    <GlossyBox id="vietnam" title="Vietnam" thumbnail={halongbay}>
+                    <GlossyBox id="Vietnam" title="Vietnam" thumbnail={halongbay}>
                         Vietnam Trip 2022
                     </GlossyBox>
-                    <GlossyBox id="galapagos" title="Galapagos Islands" thumbnail={tortoise}>
-                        Galapagos Islands Research Trip 2019
+                    <GlossyBox id="Galapagos" title="Galapagos Islands" thumbnail={tortoise}>
+                        Galapagos Islands Research Trip 2020
                     </GlossyBox>
                 </Box>
             </Section>
