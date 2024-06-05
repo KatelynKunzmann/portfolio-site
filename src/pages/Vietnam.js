@@ -1,7 +1,10 @@
-import { Container, Heading, Box } from '@chakra-ui/react'
+import { Container, Heading, Box, Link, useColorModeValue } from '@chakra-ui/react'
 import Image from 'next/image'
 import Layout from '../components/layouts/Article'
 import halongbay from '../../public/images/travel/vietnam/halongbay.jpeg'
+import vietcoffee from '../../public/images/travel/vietnam/vietcoffee.jpeg'
+import vietwalkstreet from '../../public/images/travel/vietnam/walkingstreet.jpeg'
+import bunbohue from '../../public/images/travel/vietnam/bunbohue.jpeg'
 import Section from '../components/Section'
 
 const Vietnam = () => {
@@ -28,11 +31,38 @@ const Vietnam = () => {
                 </Section>
                 <Section delay={0.6}>
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        <video controls className="grid-item-thumbnail"
+                            src={"/images/travel/vietnam/Viet00.mp4"}
+                            type="video/mp4"
+                            style={{ width: "500px", height: "600px" }}
+                        />
+                        Driving through Saigon (Ho Chi Minh City)
+                    </Box>
+                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        <Image src={bunbohue} alt="Bun Bo Hue" className="grid-item-thumbnail" />
+                        Bun Bo Hue I had for breakfast every day next to our airbnb. It is a spicy beef noodle soup, miles better than Pho in my opinion.
+                    </Box>
+                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        <Image src={vietcoffee} alt="Vietnamese Coffee" className="grid-item-thumbnail" />
+                        Homemade Vietnamese Coffee
+                        <br />
+                        Vietnamese coffee is unique because it is typically made with Robusta beans, not Arabica.
+                    </Box>
+                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        <Image src={vietwalkstreet} alt="Bui Vien Walking Street" className="grid-item-thumbnail" />
+                        Bui Vien Walking Street in Saigon
+                        <br />
+                        {' '}
+                        <Link href="https://www.youtube.com/watch?v=_RbiFq6PMZY" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Full walking street video tour</Link>
+                    </Box>
+
+
+                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
                         <Image src={halongbay} alt="Ha Long Bay" className="grid-item-thumbnail" />
-                    </Box>
-                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                    </Box>
-                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        {' '}
+                        <Link href="https://nature.new7wonders.com/wonders/ha-long-bay-vietnam/" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Ha Long Bay</Link>
+                        <br />
+                        one of the 7 wonders of the world
                     </Box>
                 </Section>
             </Container>
