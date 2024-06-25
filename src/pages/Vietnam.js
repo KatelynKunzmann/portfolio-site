@@ -5,6 +5,7 @@ import halongbay from '../../public/images/travel/vietnam/halongbay.jpeg'
 import vietcoffee from '../../public/images/travel/vietnam/vietcoffee.jpeg'
 import vietwalkstreet from '../../public/images/travel/vietnam/walkingstreet.jpeg'
 import bunbohue from '../../public/images/travel/vietnam/bunbohue.jpeg'
+import vietcafe from '../../public/images/travel/vietnam/viet_cafe.jpeg'
 import Section from '../components/Section'
 
 const Vietnam = () => {
@@ -56,6 +57,13 @@ const Vietnam = () => {
                         <Link href="https://www.youtube.com/watch?v=_RbiFq6PMZY" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Full walking street video tour</Link>
                     </Box>
 
+                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        <Image src={vietcafe} alt="Stocking Vietnamese Cafe" className="grid-item-thumbnail" />
+                        {' '}
+                        <Link href="https://nature.new7wonders.com/wonders/ha-long-bay-vietnam/" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")} fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Traditional Stocking Vietnamese Coffee</Link>
+                        <br />
+                        Stocking Vietnamese Coffee - Coffee filtered through a cotton stocking and spoon net filter
+                    </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
                         <Image src={halongbay} alt="Ha Long Bay" className="grid-item-thumbnail" />
