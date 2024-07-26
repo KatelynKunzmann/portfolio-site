@@ -14,15 +14,15 @@ const Software = () => {
                 Software
             </Heading>
             <Box flexWrap="wrap">
-                <GlossyBox id="aws_proxy_server" title="AWS Proxy Server" thumbnail={aws}>
+                <GlossyBox id="https://github.com/tackle-io" title="AWS Proxy Server" thumbnail={aws}>
                     A reverse proxy server that securely stores customer AWS credentials and
-                    facilitates interactions with AWS services on behalf of customers
+                    facilitates interactions with AWS services on behalf of customers. Being used currently at tackle.io
                 </GlossyBox>
                 <GlossyBox id="https://github.com/KatelynKunzmann/Mal-Monthly" title="Malware Data Scraper" thumbnail={malware}>
                     A web application that displays the most shared malware for the past 30 days, exceeding 15,000 entries
                 </GlossyBox>
                 <GlossyBox id="https://github.com/KatelynKunzmann/File-Application-System" title="Secure File-Sharing CLI Application" thumbnail={fsa}>
-                    Secure group-based file-sharing CLI application that is secure
+                    Secure group-based file-sharing CLI application that is protected
                     against a number of different types of security threats
                 </GlossyBox>
                 <GlossyBox id="https://github.com/KatelynKunzmann/interest" title="Student Loan Calculation Website" thumbnail={interest}>

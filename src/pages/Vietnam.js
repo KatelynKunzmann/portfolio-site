@@ -17,9 +17,7 @@ const Vietnam = () => {
                 </Heading>
                 <Section delay={0.4}>
                     Traveling to Vietnam in 2022 was the longest flight I had ever been on. Over 30 hours total
-                    traveling time, with one 14-hour flight over the Pacific Ocean to Tokyo, which by the way had
-                    the fastest wifi I had ever witnessed, and this is airport wifi so that earns it even more stars
-                    in my book. The constant flying and living in airplanes/airports was a grueling start to an otherwise spectacular trip.
+                    traveling time, with one 14-hour flight over the Pacific Ocean to Tokyo. The constant flying and living in airplanes/airports was a grueling start to an otherwise spectacular trip.
                     Arriving in Saigon (Ho Chi Minh City), during morning time made the city feel bustling and full of exciting
                     places and food to discover, which it absolutely delivered on. Later in the trip, experiencing Ha Long Bay
                     via river or bay? cruise ship was the most beautiful sight I have ever seen. The mountains covered in
@@ -41,7 +39,7 @@ const Vietnam = () => {
                     </Box>
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
                         <Image src={bunbohue} alt="Bun Bo Hue" className="grid-item-thumbnail" />
-                        Bun Bo Hue I had for breakfast every day next to our airbnb. It is a spicy beef noodle soup, miles better than Pho in my opinion.
+                        Bun Bo Hue - my breakfast every day. It is a spicy beef noodle soup, miles better than Pho in my opinion.
                     </Box>
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
                         <Image src={vietcoffee} alt="Vietnamese Coffee" className="grid-item-thumbnail" />

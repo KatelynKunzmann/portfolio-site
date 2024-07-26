@@ -16,8 +16,7 @@ const Keyboards = () => {
                 </Heading>
                 <Section delay={0.4}>
                     I love the meticulous and stubborn art of constructing keyboards.
-                    It allows me to choose the aesthetic and control every small detail and specification to the finest degree.
-                    I enjoy the process of refining and customizing my keyboards to achieve the perfect sound and feel for my own taste.
+                    The process of refining and customizing my keyboards to achieve the perfect sound and feel is very satisfying.
                     It&apos;s not just about creating the perfect keyboard; it&apos;s about infusing a simplistic, often overlooked everyday device with an individuality.
                     This journey has been a relaxing and fulfilling form of self-expression, bringing comfort and joy into my life.
                     <br />
