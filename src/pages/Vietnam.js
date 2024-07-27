@@ -249,7 +249,7 @@ const Vietnam = () => {
                         <Image src={flight} alt="Flight path" className="grid-item-thumbnail" />
                         First leg of flight, arriving in Tokyo.
                         <br />
-                        All in all, it was a 10/10 vacation. We only stayed in Saigon and Ha Long Bay. I already am making plans to go back and see the rest
+                        All in all, it was a 10/10 vacation. The food, hospitality, overall safety, and nature was top-notch. We only stayed in Saigon and Ha Long Bay. I already am making plans to go back and see the rest
                         of Vietnam, since there is so much more to explore.
                     </Box>
 
