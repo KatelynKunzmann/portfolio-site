@@ -139,7 +139,7 @@ const Experience = () => {
                 </Section>
                 <Box display={'flex'} justifyContent={'center'}>
                     <Link
-                        href="https://drive.google.com/file/d/1CgF1DCOjZMMKMGKicsuAshNW-j7PU01v/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1bDtqHTFVW1LnKt41daEoYRNmMhhNTJwF/view?usp=sharing"
                         isExternal
                         style={{ textDecoration: 'none' }}
                         color={useColorModeValue('theme_colors.light_green', 'theme_colors.evergreen')}

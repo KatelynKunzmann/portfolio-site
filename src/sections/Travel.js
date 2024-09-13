@@ -16,7 +16,7 @@ const Travel = () => {
                         Vietnam Trip 2022
                     </GlossyBox>
                     <GlossyBox id="Galapagos" title="Galapagos Islands" thumbnail={tortoise}>
-                        Galapagos Islands Research Trip 2020
+                        Galápagos Islands Research Trip 2020
                     </GlossyBox>
                 </Box>
             </Section>
