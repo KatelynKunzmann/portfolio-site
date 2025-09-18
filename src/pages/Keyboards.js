@@ -18,8 +18,6 @@ const Keyboards = () => {
                 <Section delay={0.4}>
                     I love the meticulous and stubborn art of constructing keyboards.
                     The process of refining and customizing my keyboards to achieve the perfect sound and feel is very satisfying.
-                    It&apos;s not just about creating the perfect keyboard; it&apos;s about infusing a simplistic, often overlooked everyday device with an individuality.
-                    This journey has been a relaxing and fulfilling form of self-expression, bringing comfort and joy into my life.
                     <br />
                     <br />
                     Below are the keyboards I have made so far in my keyboard building journey:
@@ -59,7 +57,7 @@ const Keyboards = () => {
                         <div align="left" >
                             - Switches: Gateron Black Linear
                             <br />
-                            - Keycaps: Novelkeys SA Recall
+                            - Keycaps: Glorious GPBT Rainforest
                             <br />
                             - Board: Glorious GMMK Pro
                             <br />

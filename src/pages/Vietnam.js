@@ -50,7 +50,7 @@ const Vietnam = () => {
                 </Section>
                 <Section delay={0.6}>
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <video controls className="grid-item-thumbnail"
+                        <video controls className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65}
                             src={"/images/travel/vietnam/Viet00.mp4"}
                             type="video/mp4"
                             style={{ width: "500px", height: "600px" }}
@@ -58,17 +58,17 @@ const Vietnam = () => {
                         Driving through Saigon (Ho Chi Minh City)
                     </Box>
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={bunbohue} alt="Bun Bo Hue" className="grid-item-thumbnail" />
+                        <Image src={bunbohue} alt="Bun Bo Hue" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Bún Bò Huế - my breakfast every day. It is a spicy beef noodle soup, miles better than Pho in my opinion.
                     </Box>
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={vietcoffee} alt="Vietnamese Coffee" className="grid-item-thumbnail" />
+                        <Image src={vietcoffee} alt="Vietnamese Coffee" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Homemade Vietnamese Coffee
                         <br />
                         Vietnamese coffee is unique because it is typically made with Robusta beans, not Arabica.
                     </Box>
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={vietwalkstreet} alt="Bui Vien Walking Street" className="grid-item-thumbnail" />
+                        <Image src={vietwalkstreet} alt="Bui Vien Walking Street" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         {' '}
                         <Link href="https://www.youtube.com/watch?v=_RbiFq6PMZY" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")}
                             fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Phố đi bộ Bùi Viện</Link>
@@ -77,7 +77,7 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={vietcafe} alt="Stocking Vietnamese Cafe" className="grid-item-thumbnail" />
+                        <Image src={vietcafe} alt="Stocking Vietnamese Cafe" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         {' '}
                         <Link href="https://oivietnam.com/2016/03/stocking-coffee/" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")}
                             fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Traditional Stocking Coffee</Link>
@@ -86,7 +86,7 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={coffee_beans} alt="Coffee Beans" className="grid-item-thumbnail" />
+                        <Image src={coffee_beans} alt="Coffee Beans" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         {' '}
                         <Link href="https://en.wikipedia.org/wiki/Kopi_luwak" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")}
                             fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Civet Coffee Beans</Link>
@@ -98,14 +98,14 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={viet_house} alt="Typical Vietnam house" className="grid-item-thumbnail" />
+                        <Image src={viet_house} alt="Typical Vietnam house" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Typical Vietnam house
                         <br />
                         I adored the architecture, every house was unique
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={bitexco} alt="Bitexco Financial Tower" className="grid-item-thumbnail" />
+                        <Image src={bitexco} alt="Bitexco Financial Tower" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         {' '}
                         <Link href="https://en.wikipedia.org/wiki/Bitexco_Financial_Tower" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")}
                             fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Bitexco Financial Tower</Link>
@@ -114,7 +114,7 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={aodai} alt="Ao Dai" className="grid-item-thumbnail" />
+                        <Image src={aodai} alt="Ao Dai" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         {' '}
                         <Link href="https://localvietnam.com/blog/ao-dai-museum/" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")}
                             fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Áo Dài</Link>
@@ -123,17 +123,17 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={viet_apt} alt="Beautifully designed apartments" className="grid-item-thumbnail" />
+                        <Image src={viet_apt} alt="Beautifully designed apartments" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         More architecture appreciation
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={apt} alt="More beautifully designed apartments" className="grid-item-thumbnail" />
+                        <Image src={apt} alt="More beautifully designed apartments" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         More architecture appreciation
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={pink_church} alt="Pink Church" className="grid-item-thumbnail" />
+                        <Image src={pink_church} alt="Pink Church" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         {' '}
                         <Link href="https://en.wikipedia.org/wiki/T%C3%A2n_%C4%90%E1%BB%8Bnh_Church" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")}
                             fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Tân Định Church</Link>
@@ -142,22 +142,22 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={door1} alt="Yellow door" className="grid-item-thumbnail" />
+                        <Image src={door1} alt="Yellow door" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Door design appreciation #1
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={door2} alt="Bronze door" className="grid-item-thumbnail" />
+                        <Image src={door2} alt="Bronze door" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Door design appreciation #2
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={buddhist_temple} alt="Buddhist Temple" className="grid-item-thumbnail" />
+                        <Image src={buddhist_temple} alt="Buddhist Temple" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Buddhist Temple
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={halongbay} alt="Ha Long Bay" className="grid-item-thumbnail" />
+                        <Image src={halongbay} alt="Ha Long Bay" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         {' '}
                         <Link href="https://nature.new7wonders.com/wonders/ha-long-bay-vietnam/" isExternal color={useColorModeValue("theme_colors.dark_purple", "theme_colors.purplish")}
                             fontWeight="bold" _hover={{ color: "theme_colors.lavendar" }}>Ha Long Bay</Link>
@@ -166,14 +166,14 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={staff} alt="Staff" className="grid-item-thumbnail" />
+                        <Image src={staff} alt="Staff" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         The Aspira cruise staff greeting us
                         <br />
                         Very friendly staff with the best service for the entire 2 day trip in Ha Long Bay
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <video controls className="grid-item-thumbnail"
+                        <video controls className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65}
                             src={"/images/travel/vietnam/room.mp4"}
                             type="video/mp4"
                             style={{ width: "500px", height: "600px" }}
@@ -182,7 +182,7 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <video controls className="grid-item-thumbnail"
+                        <video controls className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65}
                             src={"/images/travel/vietnam/deck.mp4"}
                             type="video/mp4"
                             style={{ width: "500px", height: "600px" }}
@@ -191,19 +191,19 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={tub} alt="Tub" className="grid-item-thumbnail" />
+                        <Image src={tub} alt="Tub" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Jet tub with wide window view
                         <br />
                         If I could, I&apos;d stay in here until I shriveled to a raisin
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={coffee_view} alt="Coffee view" className="grid-item-thumbnail" />
+                        <Image src={coffee_view} alt="Coffee view" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Enjoying life&apos;s simple pleasures with Mother Nature
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <video controls className="grid-item-thumbnail"
+                        <video controls className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65}
                             src={"/images/travel/vietnam/cave.mp4"}
                             type="video/mp4"
                             style={{ width: "500px", height: "600px" }}
@@ -212,7 +212,7 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <video controls className="grid-item-thumbnail"
+                        <video controls className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65}
                             src={"/images/travel/vietnam/topdeck.mp4"}
                             type="video/mp4"
                             style={{ width: "500px", height: "600px" }}
@@ -221,32 +221,32 @@ const Vietnam = () => {
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={halongbay2} alt="Ha long bay" className="grid-item-thumbnail" />
+                        <Image src={halongbay2} alt="Ha long bay" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         So long Ha Long
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={restaurant} alt="Beautiful restaurant" className="grid-item-thumbnail" />
+                        <Image src={restaurant} alt="Beautiful restaurant" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Large family style restaurant
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={dinner} alt="Family style dinner" className="grid-item-thumbnail" />
+                        <Image src={dinner} alt="Family style dinner" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Family dinner
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={door3} alt="White intricate door" className="grid-item-thumbnail" />
+                        <Image src={door3} alt="White intricate door" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Door design appreciation #3
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={door4} alt="Wooden door" className="grid-item-thumbnail" />
+                        <Image src={door4} alt="Wooden door" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Door design appreciation #4
                     </Box>
 
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={flight} alt="Flight path" className="grid-item-thumbnail" />
+                        <Image src={flight} alt="Flight path" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         First leg of flight, arriving in Tokyo.
                         <br />
                         All in all, it was a 10/10 vacation. The food, hospitality, overall safety, and nature was top-notch. We only stayed in Saigon and Ha Long Bay. I already am making plans to go back and see the rest

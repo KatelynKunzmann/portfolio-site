@@ -3,7 +3,7 @@ import Section from '../components/Section'
 import GlossyBox from '../components/GlossyBox'
 import tortoise from '../../public/images/travel/galapagos/galapagos-tortoise.JPG'
 import halongbay from '../../public/images/travel/vietnam/halongbay.jpeg'
-
+import fuji from '../../public/images/travel/japan/fuji.JPEG'
 const Travel = () => {
     return (
         <Container>
@@ -12,6 +12,9 @@ const Travel = () => {
                     Travel
                 </Heading>
                 <Box flexWrap="wrap">
+                    <GlossyBox id="Japan" title="Japan" thumbnail={fuji}>
+                        Japan Trip 2025
+                    </GlossyBox>
                     <GlossyBox id="Vietnam" title="Vietnam" thumbnail={halongbay}>
                         Vietnam Trip 2022
                     </GlossyBox>
