@@ -12,7 +12,16 @@ const Japan = () => {
                     Japan Trip 2025
                 </Heading>
                 <Section delay={0.4}>
-                    My trip through Japan in 2025 was ...
+                    I had the privilege of solo venturing through Japan in 2025 and it was the most beautiful experience of my life.
+                    Starting in the north in Niseko, Japan, I snowboarded down mountains while making international friends in a hostel
+                    and attending a music festival with them during the night at the base of the mountain. I then ventured forth to Kyoto,
+                    which became my favorite part of Japan. The traditional architecture and solemn atmosphere carried throughout the city.
+                    I also explored Ghibli Park, experiencing the wonders of the Ghibli world in person.
+                    Next was Osaka, AKA Japan&apos;s Kitchen, where I attended a food/beverage tour with my brother and sister-in-law.
+                    After Osaka, was Tokyo where I stayed for 3 days and enjoyed every minute it had to offer. Lastly, I stayed one night
+                    with the kindest Japanese family near Mt.Fuji. After getting to witness as much of Japan as I could in 2 weeks, I still have the
+                    wanderlust urge to go bacl and do it all again.
+                    Take a look below for the highlights of my trip.
                 </Section>
                 <Section delay={0.6}>
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>

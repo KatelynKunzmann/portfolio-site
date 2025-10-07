@@ -15,11 +15,6 @@ const Software = () => {
                 Software
             </Heading>
             <Box flexWrap="wrap">
-                <GlossyBox id="https://project-plur.vercel.app/" title="Project PLUR" thumbnail={plur}>
-                    A React-based web app that connects music festival attendees through shared experiences.
-                    By scanning a unique QR code bracelet, users can post stories, photos, and reflections,
-                    fostering community and connection beyond the event itself.
-                </GlossyBox>
                 <GlossyBox id="https://github.com/tackle-io" title="AWS Proxy Server" thumbnail={aws}>
                     A reverse proxy server that securely stores customer AWS credentials and
                     facilitates interactions with AWS services on behalf of customers. Was iterated and implemented upon at tackle.io
@@ -35,6 +30,11 @@ const Software = () => {
                     A web application that calculates your student loan payments and
                     provides an amortization table of payments, a loan summary,
                     and a loan safety ratio
+                </GlossyBox>
+                <GlossyBox id="https://project-plur.vercel.app/" title="Project PLUR" thumbnail={plur}>
+                    A React-based web app that connects music festival attendees through shared experiences.
+                    By scanning a unique QR code bracelet, users can post stories, photos, and reflections,
+                    fostering community and connection beyond the event itself.
                 </GlossyBox>
                 <GlossyBox id="https://github.com/KatelynKunzmann/typing-test" title="Typing Test Website" thumbnail={typetest}>
                     Inspired by my niece who is learning how to type
