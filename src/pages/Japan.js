@@ -1,8 +1,10 @@
 import { Container, Heading, Box } from '@chakra-ui/react'
 import Image from 'next/image'
 import Layout from '../components/layouts/Article'
-import fuji from '../../public/images/travel/japan/fuji.JPEG'
 import Section from '../components/Section'
+import yotei from '../../public/images/travel/japan/yotei.JPEG'
+import me_yotei from '../../public/images/travel/japan/me_and_yotei.JPEG'
+import fuji from '../../public/images/travel/japan/fuji.JPEG'
 
 const Japan = () => {
     return (
@@ -20,12 +22,20 @@ const Japan = () => {
                     Next was Osaka, AKA Japan&apos;s Kitchen, where I attended a food/beverage tour with my brother and sister-in-law.
                     After Osaka, was Tokyo where I stayed for 3 days and enjoyed every minute it had to offer. Lastly, I stayed one night
                     with the kindest Japanese family near Mt.Fuji. After getting to witness as much of Japan as I could in 2 weeks, I still have the
-                    wanderlust urge to go bacl and do it all again.
+                    wanderlust urge to go back and do it all again.
                     Take a look below for the highlights of my trip.
                 </Section>
                 <Section delay={0.6}>
                     <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
-                        <Image src={fuji} alt="Mt. Fuji" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
+                        <Image src={yotei} alt="Mount Yotei" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
+                        Mt. Yotei
+                    </Box>
+                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        <Image src={me_yotei} alt="Me and Mount Yotei" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
+                        Snowboarding with Mt. Yotei in the background.
+                    </Box>
+                    <Box align="center" mt={4} mb={4} padding='1.25rem 1rem'>
+                        <Image src={fuji} alt="Mount Fuji" className="grid-item-thumbnail" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={65} />
                         Chureito Pagoda with Mt. Fuji in the distance.
                     </Box>
                 </Section>
