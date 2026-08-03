@@ -118,9 +118,9 @@ const Home = () => {
                     </BioSection>
                     <BioSection>
                         <Flex direction="column" align="left">
-                            <BioYear>2023 to Present</BioYear>
+                            <BioYear>2023 to 2025</BioYear>
                         </Flex>
-                        Working at{' '}
+                        Started working at{' '}
                         <Link
                             href="https://www.upmc.com/"
                             isExternal
@@ -131,6 +131,19 @@ const Home = () => {
                             UPMC
                         </Link>{' '}
                         as a Software Engineer Associate
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2026 - Present</BioYear>
+                        Currently at {' '}
+                        <Link
+                            href="https://www.nuix.com/"
+                            isExternal
+                            color={useColorModeValue('theme_colors.dark_purple', 'theme_colors.purplish')}
+                            fontWeight="bold"
+                            _hover={{ color: 'theme_colors.lavendar' }}
+                        >
+                            Nuix
+                        </Link>{' '}
                     </BioSection>
                 </Section>
 

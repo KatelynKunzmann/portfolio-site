@@ -34,6 +34,42 @@ const Experience = () => {
                     <Heading variant="subtitle">
                         {' '}
                         <Link
+                            href="https://www.nuix.com/"
+                            color={useColorModeValue('theme_colors.dark_purple', 'theme_colors.purplish')}
+                            fontWeight="bold"
+                            _hover={{ color: 'theme_colors.lavendar' }}
+                        >
+                            Nuix - Discover
+                        </Link>{' '}
+                    </Heading>
+                    <Heading variant="date">January 2026 - Current</Heading>
+                    <Box>
+                        <ul style={{ paddingLeft: '20px' }}>
+                            <li>
+                                Implemented new AI features into the eDiscovery platform including Semantic Search, Clustering views, and Summarization
+                            </li>
+                            <li>
+                                Integrated BYOAI capabilities for the Neo platform
+                            </li>
+                        </ul>
+                    </Box>
+                    <Flex flexWrap="wrap">
+                        <RoundedBox label={"C#"} />
+                        <RoundedBox label={".NET"} />
+                        <RoundedBox label={"TS"} />
+                        <RoundedBox label={"AWS"} />
+                        <RoundedBox label={"Docker"} />
+                        <RoundedBox label={"SQL"} />
+                        <RoundedBox label={"SSMS"} />
+                    </Flex>
+                </Section>
+                <Section delay={0.2}>
+                    <Heading variant="paragraph-title">
+                        Software Engineer Associate
+                    </Heading>
+                    <Heading variant="subtitle">
+                        {' '}
+                        <Link
                             href="https://www.upmc.com/"
                             color={useColorModeValue('theme_colors.dark_purple', 'theme_colors.purplish')}
                             fontWeight="bold"
@@ -42,7 +78,7 @@ const Experience = () => {
                             UPMC
                         </Link>{' '}
                     </Heading>
-                    <Heading variant="date">November 2023 - Current</Heading>
+                    <Heading variant="date">November 2023 - January 2026</Heading>
                     <Box>
                         <ul style={{ paddingLeft: '20px' }}>
                             <li>
@@ -64,7 +100,7 @@ const Experience = () => {
                         <RoundedBox label={"SSMS"} />
                     </Flex>
                 </Section>
-                <Section delay={0.2}>
+                <Section delay={0.3}>
                     <Heading variant="paragraph-title">
                         Software Engineer Intern
                     </Heading>
@@ -98,7 +134,7 @@ const Experience = () => {
                         <RoundedBox label={"PostgreSQL"} />
                     </Flex>
                 </Section>
-                <Section delay={.3}>
+                <Section delay={.4}>
                     <Heading variant="paragraph-title">
                         Malware Analyst Intern
                     </Heading>

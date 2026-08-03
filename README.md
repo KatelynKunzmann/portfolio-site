@@ -1,6 +1,4 @@
-# Welcome to my new portfolio site
-
-## Currently under construction
+# Welcome to my portfolio site
 
 
 https://katelynkunzmann.com/
