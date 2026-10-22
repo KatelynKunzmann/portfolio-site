@@ -6,12 +6,15 @@
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
-    "prettier": "prettier -write .",
+    "prettier": "prettier --write .",
     "lint": "next lint"
   },
   "keywords": [],
   "author": "Katelyn Kunzmann",
   "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/react": "^2.8.2",
@@ -25,8 +28,7 @@
     "react-scroll": "^1.9.0",
     "sharp": "^0.34.4",
     "styled-components": "^6.1.8",
-    "three": "^0.162.0",
-    "yarn": "^1.22.21"
+    "three": "^0.162.0"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
